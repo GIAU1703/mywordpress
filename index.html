@@ -27,43 +27,550 @@ img.emoji {
 }</style>
 	<link rel="stylesheet" id="wp-block-library-css" href="https://giau1703.github.io/mywordpress/wp-includes/css/dist/block-library/style.min.css?ver=6.0.2" media="all">
 <style id="wp-block-library-theme-inline-css">.wp-block-audio figcaption{color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-audio figcaption{color:hsla(0,0%,100%,.65)}.wp-block-code{border:1px solid #ccc;border-radius:4px;font-family:Menlo,Consolas,monaco,monospace;padding:.8em 1em}.wp-block-embed figcaption{color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-embed figcaption{color:hsla(0,0%,100%,.65)}.blocks-gallery-caption{color:#555;font-size:13px;text-align:center}.is-dark-theme .blocks-gallery-caption{color:hsla(0,0%,100%,.65)}.wp-block-image figcaption{color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-image figcaption{color:hsla(0,0%,100%,.65)}.wp-block-pullquote{border-top:4px solid;border-bottom:4px solid;margin-bottom:1.75em;color:currentColor}.wp-block-pullquote__citation,.wp-block-pullquote cite,.wp-block-pullquote footer{color:currentColor;text-transform:uppercase;font-size:.8125em;font-style:normal}.wp-block-quote{border-left:.25em solid;margin:0 0 1.75em;padding-left:1em}.wp-block-quote cite,.wp-block-quote footer{color:currentColor;font-size:.8125em;position:relative;font-style:normal}.wp-block-quote.has-text-align-right{border-left:none;border-right:.25em solid;padding-left:0;padding-right:1em}.wp-block-quote.has-text-align-center{border:none;padding-left:0}.wp-block-quote.is-large,.wp-block-quote.is-style-large,.wp-block-quote.is-style-plain{border:none}.wp-block-search .wp-block-search__label{font-weight:700}:where(.wp-block-group.has-background){padding:1.25em 2.375em}.wp-block-separator.has-css-opacity{opacity:.4}.wp-block-separator{border:none;border-bottom:2px solid;margin-left:auto;margin-right:auto}.wp-block-separator.has-alpha-channel-opacity{opacity:1}.wp-block-separator:not(.is-style-wide):not(.is-style-dots){width:100px}.wp-block-separator.has-background:not(.is-style-dots){border-bottom:none;height:1px}.wp-block-separator.has-background:not(.is-style-wide):not(.is-style-dots){height:2px}.wp-block-table thead{border-bottom:3px solid}.wp-block-table tfoot{border-top:3px solid}.wp-block-table td,.wp-block-table th{padding:.5em;border:1px solid;word-break:normal}.wp-block-table figcaption{color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-table figcaption{color:hsla(0,0%,100%,.65)}.wp-block-video figcaption{color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-video figcaption{color:hsla(0,0%,100%,.65)}.wp-block-template-part.has-background{padding:1.25em 2.375em;margin-top:0;margin-bottom:0}</style>
-<link rel="stylesheet" id="portfolio-kit-gb-block-css" href="https://giau1703.github.io/mywordpress/wp-content/themes/portfolio-kit/assets/css/admin-block.css?ver=1.0" media="all">
-<link rel="stylesheet" id="portfolio-kit-admin-google-font-css" href="https://fonts.googleapis.com/css?family=Roboto+Condensed%3A400%2C400i%2C700%2C700i%2C900%2C900i%7CPoppins%3A400%2C400i%2C500%2C600%2C700%2C700i&#038;subset=latin%2Clatin-ext" media="all">
-<style id="global-styles-inline-css">body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--duotone--dark-grayscale: url('#wp-duotone-dark-grayscale');--wp--preset--duotone--grayscale: url('#wp-duotone-grayscale');--wp--preset--duotone--purple-yellow: url('#wp-duotone-purple-yellow');--wp--preset--duotone--blue-red: url('#wp-duotone-blue-red');--wp--preset--duotone--midnight: url('#wp-duotone-midnight');--wp--preset--duotone--magenta-yellow: url('#wp-duotone-magenta-yellow');--wp--preset--duotone--purple-green: url('#wp-duotone-purple-green');--wp--preset--duotone--blue-orange: url('#wp-duotone-blue-orange');--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}</style>
-<link rel="stylesheet" id="portfolio-kit-google-font-css" href="https://fonts.googleapis.com/css?family=Roboto+Condensed%3A400%2C400i%2C700%2C700i%2C900%2C900i%7CPoppins%3A400%2C400i%2C500%2C600%2C700%2C700i&#038;subset=latin%2Clatin-ext" media="all">
-<link rel="stylesheet" id="bootstrap-css" href="https://giau1703.github.io/mywordpress/wp-content/themes/portfolio-kit/assets/css/bootstrap.css?ver=5.0.1" media="all">
-<link rel="stylesheet" id="fontawesome-css" href="https://giau1703.github.io/mywordpress/wp-content/themes/portfolio-kit/assets/css/all.css?ver=5.15.3" media="all">
-<link rel="stylesheet" id="portfolio-kit-block-style-css" href="https://giau1703.github.io/mywordpress/wp-content/themes/portfolio-kit/assets/css/block.css?ver=1.0.2" media="all">
-<link rel="stylesheet" id="portfolio-kit-default-style-css" href="https://giau1703.github.io/mywordpress/wp-content/themes/portfolio-kit/assets/css/default-style.css?ver=1.0.2" media="all">
-<link rel="stylesheet" id="portfolio-kit-main-style-css" href="https://giau1703.github.io/mywordpress/wp-content/themes/portfolio-kit/assets/css/main.css?ver=1.0.2" media="all">
-<link rel="stylesheet" id="portfolio-kit-style-css" href="https://giau1703.github.io/mywordpress/wp-content/themes/portfolio-kit/style.css?ver=1.0.2" media="all">
-<link rel="stylesheet" id="portfolio-kit-responsive-style-css" href="https://giau1703.github.io/mywordpress/wp-content/themes/portfolio-kit/assets/css/responsive.css?ver=1.0.2" media="all">
+<link rel="stylesheet" id="wc-blocks-vendors-style-css" href="https://giau1703.github.io/mywordpress/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/wc-blocks-vendors-style.css?ver=8.3.3" media="all">
+<link rel="stylesheet" id="wc-blocks-style-css" href="https://giau1703.github.io/mywordpress/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/wc-blocks-style.css?ver=8.3.3" media="all">
+<link rel="stylesheet" id="storefront-gutenberg-blocks-css" href="https://giau1703.github.io/mywordpress/wp-content/themes/storefront/assets/css/base/gutenberg-blocks.css?ver=4.1.3" media="all">
+<style id="storefront-gutenberg-blocks-inline-css">.wp-block-button__link:not(.has-text-color) {
+					color: #333333;
+				}
+
+				.wp-block-button__link:not(.has-text-color):hover,
+				.wp-block-button__link:not(.has-text-color):focus,
+				.wp-block-button__link:not(.has-text-color):active {
+					color: #333333;
+				}
+
+				.wp-block-button__link:not(.has-background) {
+					background-color: #eeeeee;
+				}
+
+				.wp-block-button__link:not(.has-background):hover,
+				.wp-block-button__link:not(.has-background):focus,
+				.wp-block-button__link:not(.has-background):active {
+					border-color: #d5d5d5;
+					background-color: #d5d5d5;
+				}
+
+				.wp-block-quote footer,
+				.wp-block-quote cite,
+				.wp-block-quote__citation {
+					color: #6d6d6d;
+				}
+
+				.wp-block-pullquote cite,
+				.wp-block-pullquote footer,
+				.wp-block-pullquote__citation {
+					color: #6d6d6d;
+				}
+
+				.wp-block-image figcaption {
+					color: #6d6d6d;
+				}
+
+				.wp-block-separator.is-style-dots::before {
+					color: #333333;
+				}
+
+				.wp-block-file a.wp-block-file__button {
+					color: #333333;
+					background-color: #eeeeee;
+					border-color: #eeeeee;
+				}
+
+				.wp-block-file a.wp-block-file__button:hover,
+				.wp-block-file a.wp-block-file__button:focus,
+				.wp-block-file a.wp-block-file__button:active {
+					color: #333333;
+					background-color: #d5d5d5;
+				}
+
+				.wp-block-code,
+				.wp-block-preformatted pre {
+					color: #6d6d6d;
+				}
+
+				.wp-block-table:not( .has-background ):not( .is-style-stripes ) tbody tr:nth-child(2n) td {
+					background-color: #fdfdfd;
+				}
+
+				.wp-block-cover .wp-block-cover__inner-container h1:not(.has-text-color),
+				.wp-block-cover .wp-block-cover__inner-container h2:not(.has-text-color),
+				.wp-block-cover .wp-block-cover__inner-container h3:not(.has-text-color),
+				.wp-block-cover .wp-block-cover__inner-container h4:not(.has-text-color),
+				.wp-block-cover .wp-block-cover__inner-container h5:not(.has-text-color),
+				.wp-block-cover .wp-block-cover__inner-container h6:not(.has-text-color) {
+					color: #000000;
+				}
+
+				.wc-block-components-price-slider__range-input-progress,
+				.rtl .wc-block-components-price-slider__range-input-progress {
+					--range-color: #7f54b3;
+				}
+
+				/* Target only IE11 */
+				@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+					.wc-block-components-price-slider__range-input-progress {
+						background: #7f54b3;
+					}
+				}
+
+				.wc-block-components-button:not(.is-link) {
+					background-color: #333333;
+					color: #ffffff;
+				}
+
+				.wc-block-components-button:not(.is-link):hover,
+				.wc-block-components-button:not(.is-link):focus,
+				.wc-block-components-button:not(.is-link):active {
+					background-color: #1a1a1a;
+					color: #ffffff;
+				}
+
+				.wc-block-components-button:not(.is-link):disabled {
+					background-color: #333333;
+					color: #ffffff;
+				}
+
+				.wc-block-cart__submit-container {
+					background-color: #ffffff;
+				}
+
+				.wc-block-cart__submit-container::before {
+					color: rgba(220,220,220,0.5);
+				}
+
+				.wc-block-components-order-summary-item__quantity {
+					background-color: #ffffff;
+					border-color: #6d6d6d;
+					box-shadow: 0 0 0 2px #ffffff;
+					color: #6d6d6d;
+				}</style>
+<style id="global-styles-inline-css">body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--duotone--dark-grayscale: url('#wp-duotone-dark-grayscale');--wp--preset--duotone--grayscale: url('#wp-duotone-grayscale');--wp--preset--duotone--purple-yellow: url('#wp-duotone-purple-yellow');--wp--preset--duotone--blue-red: url('#wp-duotone-blue-red');--wp--preset--duotone--midnight: url('#wp-duotone-midnight');--wp--preset--duotone--magenta-yellow: url('#wp-duotone-magenta-yellow');--wp--preset--duotone--purple-green: url('#wp-duotone-purple-green');--wp--preset--duotone--blue-orange: url('#wp-duotone-blue-orange');--wp--preset--font-size--small: 14px;--wp--preset--font-size--medium: 23px;--wp--preset--font-size--large: 26px;--wp--preset--font-size--x-large: 42px;--wp--preset--font-size--normal: 16px;--wp--preset--font-size--huge: 37px;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}</style>
+<style id="woocommerce-inline-inline-css">.woocommerce form .form-row .required { visibility: visible; }</style>
+<link rel="stylesheet" id="storefront-style-css" href="https://giau1703.github.io/mywordpress/wp-content/themes/storefront/style.css?ver=4.1.3" media="all">
+<style id="storefront-style-inline-css">.main-navigation ul li a,
+			.site-title a,
+			ul.menu li a,
+			.site-branding h1 a,
+			button.menu-toggle,
+			button.menu-toggle:hover,
+			.handheld-navigation .dropdown-toggle {
+				color: #333333;
+			}
+
+			button.menu-toggle,
+			button.menu-toggle:hover {
+				border-color: #333333;
+			}
+
+			.main-navigation ul li a:hover,
+			.main-navigation ul li:hover > a,
+			.site-title a:hover,
+			.site-header ul.menu li.current-menu-item > a {
+				color: #747474;
+			}
+
+			table:not( .has-background ) th {
+				background-color: #f8f8f8;
+			}
+
+			table:not( .has-background ) tbody td {
+				background-color: #fdfdfd;
+			}
+
+			table:not( .has-background ) tbody tr:nth-child(2n) td,
+			fieldset,
+			fieldset legend {
+				background-color: #fbfbfb;
+			}
+
+			.site-header,
+			.secondary-navigation ul ul,
+			.main-navigation ul.menu > li.menu-item-has-children:after,
+			.secondary-navigation ul.menu ul,
+			.storefront-handheld-footer-bar,
+			.storefront-handheld-footer-bar ul li > a,
+			.storefront-handheld-footer-bar ul li.search .site-search,
+			button.menu-toggle,
+			button.menu-toggle:hover {
+				background-color: #ffffff;
+			}
+
+			p.site-description,
+			.site-header,
+			.storefront-handheld-footer-bar {
+				color: #404040;
+			}
+
+			button.menu-toggle:after,
+			button.menu-toggle:before,
+			button.menu-toggle span:before {
+				background-color: #333333;
+			}
+
+			h1, h2, h3, h4, h5, h6, .wc-block-grid__product-title {
+				color: #333333;
+			}
+
+			.widget h1 {
+				border-bottom-color: #333333;
+			}
+
+			body,
+			.secondary-navigation a {
+				color: #6d6d6d;
+			}
+
+			.widget-area .widget a,
+			.hentry .entry-header .posted-on a,
+			.hentry .entry-header .post-author a,
+			.hentry .entry-header .post-comments a,
+			.hentry .entry-header .byline a {
+				color: #727272;
+			}
+
+			a {
+				color: #7f54b3;
+			}
+
+			a:focus,
+			button:focus,
+			.button.alt:focus,
+			input:focus,
+			textarea:focus,
+			input[type="button"]:focus,
+			input[type="reset"]:focus,
+			input[type="submit"]:focus,
+			input[type="email"]:focus,
+			input[type="tel"]:focus,
+			input[type="url"]:focus,
+			input[type="password"]:focus,
+			input[type="search"]:focus {
+				outline-color: #7f54b3;
+			}
+
+			button, input[type="button"], input[type="reset"], input[type="submit"], .button, .widget a.button {
+				background-color: #eeeeee;
+				border-color: #eeeeee;
+				color: #333333;
+			}
+
+			button:hover, input[type="button"]:hover, input[type="reset"]:hover, input[type="submit"]:hover, .button:hover, .widget a.button:hover {
+				background-color: #d5d5d5;
+				border-color: #d5d5d5;
+				color: #333333;
+			}
+
+			button.alt, input[type="button"].alt, input[type="reset"].alt, input[type="submit"].alt, .button.alt, .widget-area .widget a.button.alt {
+				background-color: #333333;
+				border-color: #333333;
+				color: #ffffff;
+			}
+
+			button.alt:hover, input[type="button"].alt:hover, input[type="reset"].alt:hover, input[type="submit"].alt:hover, .button.alt:hover, .widget-area .widget a.button.alt:hover {
+				background-color: #1a1a1a;
+				border-color: #1a1a1a;
+				color: #ffffff;
+			}
+
+			.pagination .page-numbers li .page-numbers.current {
+				background-color: #e6e6e6;
+				color: #636363;
+			}
+
+			#comments .comment-list .comment-content .comment-text {
+				background-color: #f8f8f8;
+			}
+
+			.site-footer {
+				background-color: #f0f0f0;
+				color: #6d6d6d;
+			}
+
+			.site-footer a:not(.button):not(.components-button) {
+				color: #333333;
+			}
+
+			.site-footer .storefront-handheld-footer-bar a:not(.button):not(.components-button) {
+				color: #333333;
+			}
+
+			.site-footer h1, .site-footer h2, .site-footer h3, .site-footer h4, .site-footer h5, .site-footer h6, .site-footer .widget .widget-title, .site-footer .widget .widgettitle {
+				color: #333333;
+			}
+
+			.page-template-template-homepage.has-post-thumbnail .type-page.has-post-thumbnail .entry-title {
+				color: #000000;
+			}
+
+			.page-template-template-homepage.has-post-thumbnail .type-page.has-post-thumbnail .entry-content {
+				color: #000000;
+			}
+
+			@media screen and ( min-width: 768px ) {
+				.secondary-navigation ul.menu a:hover {
+					color: #595959;
+				}
+
+				.secondary-navigation ul.menu a {
+					color: #404040;
+				}
+
+				.main-navigation ul.menu ul.sub-menu,
+				.main-navigation ul.nav-menu ul.children {
+					background-color: #f0f0f0;
+				}
+
+				.site-header {
+					border-bottom-color: #f0f0f0;
+				}
+			}</style>
+<link rel="stylesheet" id="storefront-icons-css" href="https://giau1703.github.io/mywordpress/wp-content/themes/storefront/assets/css/base/icons.css?ver=4.1.3" media="all">
+<link rel="stylesheet" id="storefront-fonts-css" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro%3A400%2C300%2C300italic%2C400italic%2C600%2C700%2C900&#038;subset=latin%2Clatin-ext&#038;ver=4.1.3" media="all">
 <link rel="stylesheet" id="elementor-icons-css" href="https://giau1703.github.io/mywordpress/wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.min.css?ver=5.16.0" media="all">
 <link rel="stylesheet" id="elementor-frontend-css" href="https://giau1703.github.io/mywordpress/wp-content/plugins/elementor/assets/css/frontend-lite.min.css?ver=3.7.4" media="all">
 <link rel="stylesheet" id="elementor-post-47-css" href="https://giau1703.github.io/mywordpress/wp-content/uploads/elementor/css/post-47.css?ver=1663290797" media="all">
 <link rel="stylesheet" id="elementor-pro-css" href="https://giau1703.github.io/mywordpress/wp-content/plugins/elementor-pro/assets/css/frontend-lite.min.css?ver=3.7.1" media="all">
 <link rel="stylesheet" id="elementor-global-css" href="https://giau1703.github.io/mywordpress/wp-content/uploads/elementor/css/global.css?ver=1663291631" media="all">
-<link rel="stylesheet" id="elementor-post-276-css" href="https://giau1703.github.io/mywordpress/wp-content/uploads/elementor/css/post-276.css?ver=1664498749" media="all">
-<link rel="stylesheet" id="elementor-post-214-css" href="https://giau1703.github.io/mywordpress/wp-content/uploads/elementor/css/post-214.css?ver=1663899082" media="all">
-<link rel="stylesheet" id="elementor-post-215-css" href="https://giau1703.github.io/mywordpress/wp-content/uploads/elementor/css/post-215.css?ver=1663904529" media="all">
+<link rel="stylesheet" id="elementor-post-214-css" href="https://giau1703.github.io/mywordpress/wp-content/uploads/elementor/css/post-214.css?ver=1664762094" media="all">
+<link rel="stylesheet" id="elementor-post-215-css" href="https://giau1703.github.io/mywordpress/wp-content/uploads/elementor/css/post-215.css?ver=1664856183" media="all">
+<link rel="stylesheet" id="storefront-woocommerce-style-css" href="https://giau1703.github.io/mywordpress/wp-content/themes/storefront/assets/css/woocommerce/woocommerce.css?ver=4.1.3" media="all">
+<style id="storefront-woocommerce-style-inline-css">@font-face {
+				font-family: star;
+				src: url(https://giau1703.github.io/mywordpress/wp-content/plugins/woocommerce/assets/fonts/star.eot);
+				src:
+					url(https://giau1703.github.io/mywordpress/wp-content/plugins/woocommerce/assets/fonts/star.eot?#iefix) format("embedded-opentype"),
+					url(https://giau1703.github.io/mywordpress/wp-content/plugins/woocommerce/assets/fonts/star.woff) format("woff"),
+					url(https://giau1703.github.io/mywordpress/wp-content/plugins/woocommerce/assets/fonts/star.ttf) format("truetype"),
+					url(https://giau1703.github.io/mywordpress/wp-content/plugins/woocommerce/assets/fonts/star.svg#star) format("svg");
+				font-weight: 400;
+				font-style: normal;
+			}
+			@font-face {
+				font-family: WooCommerce;
+				src: url(https://giau1703.github.io/mywordpress/wp-content/plugins/woocommerce/assets/fonts/WooCommerce.eot);
+				src:
+					url(https://giau1703.github.io/mywordpress/wp-content/plugins/woocommerce/assets/fonts/WooCommerce.eot?#iefix) format("embedded-opentype"),
+					url(https://giau1703.github.io/mywordpress/wp-content/plugins/woocommerce/assets/fonts/WooCommerce.woff) format("woff"),
+					url(https://giau1703.github.io/mywordpress/wp-content/plugins/woocommerce/assets/fonts/WooCommerce.ttf) format("truetype"),
+					url(https://giau1703.github.io/mywordpress/wp-content/plugins/woocommerce/assets/fonts/WooCommerce.svg#WooCommerce) format("svg");
+				font-weight: 400;
+				font-style: normal;
+			}
+
+			a.cart-contents,
+			.site-header-cart .widget_shopping_cart a {
+				color: #333333;
+			}
+
+			a.cart-contents:hover,
+			.site-header-cart .widget_shopping_cart a:hover,
+			.site-header-cart:hover > li > a {
+				color: #747474;
+			}
+
+			table.cart td.product-remove,
+			table.cart td.actions {
+				border-top-color: #ffffff;
+			}
+
+			.storefront-handheld-footer-bar ul li.cart .count {
+				background-color: #333333;
+				color: #ffffff;
+				border-color: #ffffff;
+			}
+
+			.woocommerce-tabs ul.tabs li.active a,
+			ul.products li.product .price,
+			.onsale,
+			.wc-block-grid__product-onsale,
+			.widget_search form:before,
+			.widget_product_search form:before {
+				color: #6d6d6d;
+			}
+
+			.woocommerce-breadcrumb a,
+			a.woocommerce-review-link,
+			.product_meta a {
+				color: #727272;
+			}
+
+			.wc-block-grid__product-onsale,
+			.onsale {
+				border-color: #6d6d6d;
+			}
+
+			.star-rating span:before,
+			.quantity .plus, .quantity .minus,
+			p.stars a:hover:after,
+			p.stars a:after,
+			.star-rating span:before,
+			#payment .payment_methods li input[type=radio]:first-child:checked+label:before {
+				color: #7f54b3;
+			}
+
+			.widget_price_filter .ui-slider .ui-slider-range,
+			.widget_price_filter .ui-slider .ui-slider-handle {
+				background-color: #7f54b3;
+			}
+
+			.order_details {
+				background-color: #f8f8f8;
+			}
+
+			.order_details > li {
+				border-bottom: 1px dotted #e3e3e3;
+			}
+
+			.order_details:before,
+			.order_details:after {
+				background: -webkit-linear-gradient(transparent 0,transparent 0),-webkit-linear-gradient(135deg,#f8f8f8 33.33%,transparent 33.33%),-webkit-linear-gradient(45deg,#f8f8f8 33.33%,transparent 33.33%)
+			}
+
+			#order_review {
+				background-color: #ffffff;
+			}
+
+			#payment .payment_methods > li .payment_box,
+			#payment .place-order {
+				background-color: #fafafa;
+			}
+
+			#payment .payment_methods > li:not(.woocommerce-notice) {
+				background-color: #f5f5f5;
+			}
+
+			#payment .payment_methods > li:not(.woocommerce-notice):hover {
+				background-color: #f0f0f0;
+			}
+
+			.woocommerce-pagination .page-numbers li .page-numbers.current {
+				background-color: #e6e6e6;
+				color: #636363;
+			}
+
+			.wc-block-grid__product-onsale,
+			.onsale,
+			.woocommerce-pagination .page-numbers li .page-numbers:not(.current) {
+				color: #6d6d6d;
+			}
+
+			p.stars a:before,
+			p.stars a:hover~a:before,
+			p.stars.selected a.active~a:before {
+				color: #6d6d6d;
+			}
+
+			p.stars.selected a.active:before,
+			p.stars:hover a:before,
+			p.stars.selected a:not(.active):before,
+			p.stars.selected a.active:before {
+				color: #7f54b3;
+			}
+
+			.single-product div.product .woocommerce-product-gallery .woocommerce-product-gallery__trigger {
+				background-color: #eeeeee;
+				color: #333333;
+			}
+
+			.single-product div.product .woocommerce-product-gallery .woocommerce-product-gallery__trigger:hover {
+				background-color: #d5d5d5;
+				border-color: #d5d5d5;
+				color: #333333;
+			}
+
+			.button.added_to_cart:focus,
+			.button.wc-forward:focus {
+				outline-color: #7f54b3;
+			}
+
+			.added_to_cart,
+			.site-header-cart .widget_shopping_cart a.button,
+			.wc-block-grid__products .wc-block-grid__product .wp-block-button__link {
+				background-color: #eeeeee;
+				border-color: #eeeeee;
+				color: #333333;
+			}
+
+			.added_to_cart:hover,
+			.site-header-cart .widget_shopping_cart a.button:hover,
+			.wc-block-grid__products .wc-block-grid__product .wp-block-button__link:hover {
+				background-color: #d5d5d5;
+				border-color: #d5d5d5;
+				color: #333333;
+			}
+
+			.added_to_cart.alt, .added_to_cart, .widget a.button.checkout {
+				background-color: #333333;
+				border-color: #333333;
+				color: #ffffff;
+			}
+
+			.added_to_cart.alt:hover, .added_to_cart:hover, .widget a.button.checkout:hover {
+				background-color: #1a1a1a;
+				border-color: #1a1a1a;
+				color: #ffffff;
+			}
+
+			.button.loading {
+				color: #eeeeee;
+			}
+
+			.button.loading:hover {
+				background-color: #eeeeee;
+			}
+
+			.button.loading:after {
+				color: #333333;
+			}
+
+			@media screen and ( min-width: 768px ) {
+				.site-header-cart .widget_shopping_cart,
+				.site-header .product_list_widget li .quantity {
+					color: #404040;
+				}
+
+				.site-header-cart .widget_shopping_cart .buttons,
+				.site-header-cart .widget_shopping_cart .total {
+					background-color: #f5f5f5;
+				}
+
+				.site-header-cart .widget_shopping_cart {
+					background-color: #f0f0f0;
+				}
+			}
+				.storefront-product-pagination a {
+					color: #6d6d6d;
+					background-color: #ffffff;
+				}
+				.storefront-sticky-add-to-cart {
+					color: #6d6d6d;
+					background-color: #ffffff;
+				}
+
+				.storefront-sticky-add-to-cart a:not(.button) {
+					color: #333333;
+				}</style>
 <link rel="stylesheet" id="eael-general-css" href="https://giau1703.github.io/mywordpress/wp-content/plugins/essential-addons-for-elementor-lite/assets/front-end/css/view/general.min.css?ver=5.2.4" media="all">
-<link rel="stylesheet" id="google-fonts-1-css" href="https://fonts.googleapis.com/css?family=Roboto%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CRoboto+Slab%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CRisque%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CRoboto+Condensed%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CSail%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CRochester%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CRocknRoll+One%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&#038;display=auto&#038;subset=vietnamese&#038;ver=6.0.2" media="all">
+<link rel="stylesheet" id="google-fonts-1-css" href="https://fonts.googleapis.com/css?family=Roboto%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CRoboto+Slab%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&#038;display=auto&#038;subset=vietnamese&#038;ver=6.0.2" media="all">
 <link rel="stylesheet" id="elementor-icons-shared-0-css" href="https://giau1703.github.io/mywordpress/wp-content/plugins/elementor/assets/lib/font-awesome/css/fontawesome.min.css?ver=5.15.3" media="all">
 <link rel="stylesheet" id="elementor-icons-fa-solid-css" href="https://giau1703.github.io/mywordpress/wp-content/plugins/elementor/assets/lib/font-awesome/css/solid.min.css?ver=5.15.3" media="all">
 <link rel="stylesheet" id="elementor-icons-fa-brands-css" href="https://giau1703.github.io/mywordpress/wp-content/plugins/elementor/assets/lib/font-awesome/css/brands.min.css?ver=5.15.3" media="all">
 <script src="https://giau1703.github.io/mywordpress/wp-includes/js/jquery/jquery.min.js?ver=3.6.0" id="jquery-core-js"></script>
 <script src="https://giau1703.github.io/mywordpress/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.3.2" id="jquery-migrate-js"></script>
 <link rel="https://api.w.org/" href="https://giau1703.github.io/mywordpress/wp-json/">
-<link rel="alternate" type="application/json" href="https://giau1703.github.io/mywordpress/wp-json/wp/v2/pages/276">
+<link rel="alternate" type="application/json" href="https://giau1703.github.io/mywordpress/wp-json/wp/v2/pages/350">
 <link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://giau1703.github.io/mywordpress/xmlrpc.php?rsd">
 <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://giau1703.github.io/mywordpress/wp-includes/wlwmanifest.xml"> 
 <meta name="generator" content="WordPress 6.0.2">
+<meta name="generator" content="WooCommerce 6.9.4">
 <link rel="canonical" href="https://giau1703.github.io/mywordpress/">
 <link rel="shortlink" href="https://giau1703.github.io/mywordpress/">
 <link rel="alternate" type="application/json+oembed" href="https://giau1703.github.io/mywordpress/wp-json/oembed/1.0/embed?url=http%3A%2F%2Flocalhost%3A7000%2Fmyproject%2Fwordpress%2F">
 <link rel="alternate" type="text/xml+oembed" href="https://giau1703.github.io/mywordpress/wp-json/oembed/1.0/embed?url=http%3A%2F%2Flocalhost%3A7000%2Fmyproject%2Fwordpress%2F&#038;format=xml">
-</head>
-<body class="home page-template page-template-elementor_header_footer page page-id-276 wp-embed-responsive elementor-default elementor-template-full-width elementor-kit-47 elementor-page elementor-page-276">
+	<noscript><style>.woocommerce-product-gallery{ opacity: 1 !important; }</style></noscript>
+	</head>
+<body class="home page-template-default page page-id-350 wp-embed-responsive theme-storefront woocommerce-no-js storefront-align-wide right-sidebar woocommerce-active elementor-default elementor-kit-47">
 
 		<div data-elementor-type="header" data-elementor-id="214" class="elementor elementor-214 elementor-location-header">
 								<section class="elementor-section elementor-top-section elementor-element elementor-element-b258c75 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="b258c75" data-element_type="section">
@@ -112,16 +619,22 @@ IL 60606
 				<div class="elementor-widget-container">
 			<link rel="stylesheet" href="https://giau1703.github.io/mywordpress/wp-content/plugins/elementor-pro/assets/css/widget-nav-menu.min.css">			<nav migration_allowed="1" migrated="0" role="navigation" class="elementor-nav-menu--main elementor-nav-menu__container elementor-nav-menu--layout-horizontal e--pointer-underline e--animation-fade">
 				<ul id="menu-1-3921dbc" class="elementor-nav-menu">
-<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-276 current_page_item menu-item-278"><a href="https://giau1703.github.io/mywordpress/" aria-current="page" class="elementor-item elementor-item-active">Trang Chủ</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-350 current_page_item menu-item-352"><a href="https://giau1703.github.io/mywordpress/" aria-current="page" class="elementor-item elementor-item-active">Homepage</a></li>
 <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-225"><a href="https://giau1703.github.io/mywordpress/blog/" class="elementor-item">Blog</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-341"><a href="https://giau1703.github.io/mywordpress/cua-hang/" class="elementor-item">Cửa hàng</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-355"><a href="https://giau1703.github.io/mywordpress/about-us/" class="elementor-item">About us</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-358"><a href="https://giau1703.github.io/mywordpress/contact/" class="elementor-item">Contact</a></li>
 </ul>			</nav>
 					<div class="elementor-menu-toggle" role="button" tabindex="0" aria-label="Menu Toggle" aria-expanded="false">
 			<i aria-hidden="true" role="presentation" class="elementor-menu-toggle__icon--open eicon-menu-bar"></i><i aria-hidden="true" role="presentation" class="elementor-menu-toggle__icon--close eicon-close"></i>			<span class="elementor-screen-only">Menu</span>
 		</div>
 			<nav class="elementor-nav-menu--dropdown elementor-nav-menu__container" role="navigation" aria-hidden="true">
 				<ul id="menu-2-3921dbc" class="elementor-nav-menu">
-<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-276 current_page_item menu-item-278"><a href="https://giau1703.github.io/mywordpress/" aria-current="page" class="elementor-item elementor-item-active" tabindex="-1">Trang Chủ</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-350 current_page_item menu-item-352"><a href="https://giau1703.github.io/mywordpress/" aria-current="page" class="elementor-item elementor-item-active" tabindex="-1">Homepage</a></li>
 <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-225"><a href="https://giau1703.github.io/mywordpress/blog/" class="elementor-item" tabindex="-1">Blog</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-341"><a href="https://giau1703.github.io/mywordpress/cua-hang/" class="elementor-item" tabindex="-1">Cửa hàng</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-355"><a href="https://giau1703.github.io/mywordpress/about-us/" class="elementor-item" tabindex="-1">About us</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-358"><a href="https://giau1703.github.io/mywordpress/contact/" class="elementor-item" tabindex="-1">Contact</a></li>
 </ul>			</nav>
 				</div>
 				</div>
@@ -129,7 +642,7 @@ IL 60606
 		</div>
 							</div>
 		</section>
-				<section class="elementor-section elementor-top-section elementor-element elementor-element-94e3d37 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="94e3d37" data-element_type="section">
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-94e3d37 elementor-section-full_width elementor-section-height-full elementor-section-height-default elementor-section-items-middle" data-id="94e3d37" data-element_type="section">
 						<div class="elementor-container elementor-column-gap-default">
 					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-799fc00" data-id="799fc00" data-element_type="column">
 			<div class="elementor-widget-wrap elementor-element-populated">
@@ -145,7 +658,7 @@ IL 60606
 				<div class="elementor-widget-container">
 			<style>/*! elementor-pro - v3.7.1 - 16-05-2022 */
 .elementor-slides .swiper-slide-bg{background-size:cover;background-position:50%;background-repeat:no-repeat;min-width:100%;min-height:100%}.elementor-slides .swiper-slide-inner{background-repeat:no-repeat;background-position:50%;position:absolute;top:0;left:0;bottom:0;right:0;padding:50px;margin:auto}.elementor-slides .swiper-slide-inner,.elementor-slides .swiper-slide-inner:hover{color:#fff;display:-webkit-box;display:-ms-flexbox;display:flex}.elementor-slides .swiper-slide-inner .elementor-background-overlay{position:absolute;z-index:0;top:0;bottom:0;left:0;right:0}.elementor-slides .swiper-slide-inner .elementor-slide-content{position:relative;z-index:1;width:100%}.elementor-slides .swiper-slide-inner .elementor-slide-heading{font-size:35px;font-weight:700;line-height:1}.elementor-slides .swiper-slide-inner .elementor-slide-description{font-size:17px;line-height:1.4}.elementor-slides .swiper-slide-inner .elementor-slide-description:not(:last-child),.elementor-slides .swiper-slide-inner .elementor-slide-heading:not(:last-child){margin-bottom:30px}.elementor-slides .swiper-slide-inner .elementor-slide-button{border:2px solid #fff;color:#fff;background:transparent;display:inline-block}.elementor-slides .swiper-slide-inner .elementor-slide-button,.elementor-slides .swiper-slide-inner .elementor-slide-button:hover{background:transparent;color:inherit;text-decoration:none}.elementor--v-position-top .swiper-slide-inner{-webkit-box-align:start;-ms-flex-align:start;align-items:flex-start}.elementor--v-position-bottom .swiper-slide-inner{-webkit-box-align:end;-ms-flex-align:end;align-items:flex-end}.elementor--v-position-middle .swiper-slide-inner{-webkit-box-align:center;-ms-flex-align:center;align-items:center}.elementor--h-position-left .swiper-slide-inner{-webkit-box-pack:start;-ms-flex-pack:start;justify-content:flex-start}.elementor--h-position-right .swiper-slide-inner{-webkit-box-pack:end;-ms-flex-pack:end;justify-content:flex-end}.elementor--h-position-center .swiper-slide-inner{-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center}body.rtl .elementor-widget-slides .elementor-swiper-button-next{left:10px;right:auto}body.rtl .elementor-widget-slides .elementor-swiper-button-prev{right:10px;left:auto}.elementor-slides-wrapper div:not(.swiper-slide)>.swiper-slide-inner{display:none}@media (max-width:767px){.elementor-slides .swiper-slide-inner{padding:30px}.elementor-slides .swiper-slide-inner .elementor-slide-heading{font-size:23px;line-height:1;margin-bottom:15px}.elementor-slides .swiper-slide-inner .elementor-slide-description{font-size:13px;line-height:1.4;margin-bottom:15px}}</style>		<div class="elementor-swiper">
-			<div class="elementor-slides-wrapper elementor-main-swiper swiper-container" dir="ltr" data-animation="fadeInUp">
+			<div class="elementor-slides-wrapper elementor-main-swiper swiper-container" dir="ltr" data-animation="fadeInLeft">
 				<div class="swiper-wrapper elementor-slides">
 										<div class="elementor-repeater-item-78395d6 swiper-slide">
 <div class="swiper-slide-bg"></div>
@@ -191,1238 +704,55 @@ IL 60606
 							</div>
 		</section>
 						</div>
-				<div data-elementor-type="wp-page" data-elementor-id="276" class="elementor elementor-276">
-									<section class="elementor-section elementor-top-section elementor-element elementor-element-81181b8 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="81181b8" data-element_type="section">
-						<div class="elementor-container elementor-column-gap-default">
-					<div class="elementor-column elementor-col-25 elementor-top-column elementor-element elementor-element-37285ef" data-id="37285ef" data-element_type="column">
-			<div class="elementor-widget-wrap elementor-element-populated">
-								<div class="elementor-element elementor-element-0778d56 elementor-view-stacked elementor-shape-circle elementor-widget elementor-widget-icon" data-id="0778d56" data-element_type="widget" data-widget_type="icon.default">
-				<div class="elementor-widget-container">
-					<div class="elementor-icon-wrapper">
-			<a class="elementor-icon" href="https://coffeeluck.themerex.net/services/visit-us/">
-			<i aria-hidden="true" class="fas fa-house-user"></i>			</a>
-		</div>
-				</div>
-				</div>
-				<div class="elementor-element elementor-element-bac7231 elementor-widget elementor-widget-heading" data-id="bac7231" data-element_type="widget" data-widget_type="heading.default">
-				<div class="elementor-widget-container">
-			<h2 class="elementor-heading-title elementor-size-medium"><a href="http://theme.123website.com.vn/?id=16603">VISIT US</a></h2>		</div>
-				</div>
-				<div class="elementor-element elementor-element-c00716f elementor-widget elementor-widget-heading" data-id="c00716f" data-element_type="widget" data-widget_type="heading.default">
-				<div class="elementor-widget-container">
-			<h2 class="elementor-heading-title elementor-size-default"><a href="http://theme.123website.com.vn/?id=16603">find our cafe
-</a></h2>		</div>
-				</div>
-				<div class="elementor-element elementor-element-eb86cb2 elementor-widget elementor-widget-heading" data-id="eb86cb2" data-element_type="widget" data-widget_type="heading.default">
-				<div class="elementor-widget-container">
-			<h3 class="elementor-heading-title elementor-size-small">We purchase the best coffee beans all over the world</h3>		</div>
-				</div>
-					</div>
-		</div>
-				<div class="elementor-column elementor-col-25 elementor-top-column elementor-element elementor-element-07c0a45" data-id="07c0a45" data-element_type="column">
-			<div class="elementor-widget-wrap elementor-element-populated">
-								<div class="elementor-element elementor-element-e81a740 elementor-view-stacked elementor-shape-circle elementor-widget elementor-widget-icon" data-id="e81a740" data-element_type="widget" data-widget_type="icon.default">
-				<div class="elementor-widget-container">
-					<div class="elementor-icon-wrapper">
-			<a class="elementor-icon" href="https://coffeeluck.themerex.net/services/visit-us/">
-			<i aria-hidden="true" class="fas fa-coffee"></i>			</a>
-		</div>
-				</div>
-				</div>
-				<div class="elementor-element elementor-element-149549f elementor-widget elementor-widget-heading" data-id="149549f" data-element_type="widget" data-widget_type="heading.default">
-				<div class="elementor-widget-container">
-			<h2 class="elementor-heading-title elementor-size-medium"><a href="http://theme.123website.com.vn/?id=16603">BREWING</a></h2>		</div>
-				</div>
-				<div class="elementor-element elementor-element-b91bc68 elementor-widget elementor-widget-heading" data-id="b91bc68" data-element_type="widget" data-widget_type="heading.default">
-				<div class="elementor-widget-container">
-			<h2 class="elementor-heading-title elementor-size-default"><a href="http://theme.123website.com.vn/?id=16603">view the recipes
-</a></h2>		</div>
-				</div>
-				<div class="elementor-element elementor-element-3fd2af2 elementor-widget elementor-widget-heading" data-id="3fd2af2" data-element_type="widget" data-widget_type="heading.default">
-				<div class="elementor-widget-container">
-			<h6 class="elementor-heading-title elementor-size-small">A brewed drink prepared from roasted beans is coffee</h6>		</div>
-				</div>
-					</div>
-		</div>
-				<div class="elementor-column elementor-col-25 elementor-top-column elementor-element elementor-element-4b283d9" data-id="4b283d9" data-element_type="column">
-			<div class="elementor-widget-wrap elementor-element-populated">
-								<div class="elementor-element elementor-element-2e2b7ab elementor-view-stacked elementor-shape-circle elementor-widget elementor-widget-icon" data-id="2e2b7ab" data-element_type="widget" data-widget_type="icon.default">
-				<div class="elementor-widget-container">
-					<div class="elementor-icon-wrapper">
-			<a class="elementor-icon" href="https://coffeeluck.themerex.net/services/visit-us/">
-			<i aria-hidden="true" class="fas fa-long-arrow-alt-down"></i>			</a>
-		</div>
-				</div>
-				</div>
-				<div class="elementor-element elementor-element-0b7bf6d elementor-widget elementor-widget-heading" data-id="0b7bf6d" data-element_type="widget" data-widget_type="heading.default">
-				<div class="elementor-widget-container">
-			<h2 class="elementor-heading-title elementor-size-medium"><a href="http://theme.123website.com.vn/?id=16603">MASTERCLASSES</a></h2>		</div>
-				</div>
-				<div class="elementor-element elementor-element-dfea01f elementor-widget elementor-widget-heading" data-id="dfea01f" data-element_type="widget" data-widget_type="heading.default">
-				<div class="elementor-widget-container">
-			<h2 class="elementor-heading-title elementor-size-default"><a href="http://theme.123website.com.vn/?id=16603">book a class
-</a></h2>		</div>
-				</div>
-				<div class="elementor-element elementor-element-9197d48 elementor-widget elementor-widget-heading" data-id="9197d48" data-element_type="widget" data-widget_type="heading.default">
-				<div class="elementor-widget-container">
-			<h6 class="elementor-heading-title elementor-size-small">Events take place throughout the day without a break</h6>		</div>
-				</div>
-					</div>
-		</div>
-				<div class="elementor-column elementor-col-25 elementor-top-column elementor-element elementor-element-fd87876" data-id="fd87876" data-element_type="column">
-			<div class="elementor-widget-wrap elementor-element-populated">
-								<div class="elementor-element elementor-element-cd029f4 elementor-view-stacked elementor-shape-circle elementor-widget elementor-widget-icon" data-id="cd029f4" data-element_type="widget" data-widget_type="icon.default">
-				<div class="elementor-widget-container">
-					<div class="elementor-icon-wrapper">
-			<a class="elementor-icon" href="https://coffeeluck.themerex.net/services/visit-us/">
-			<i aria-hidden="true" class="fab fa-bitbucket"></i>			</a>
-		</div>
-				</div>
-				</div>
-				<div class="elementor-element elementor-element-a1d2492 elementor-widget elementor-widget-heading" data-id="a1d2492" data-element_type="widget" data-widget_type="heading.default">
-				<div class="elementor-widget-container">
-			<h2 class="elementor-heading-title elementor-size-medium"><a href="http://theme.123website.com.vn/?id=16603">HARDWARE
-</a></h2>		</div>
-				</div>
-				<div class="elementor-element elementor-element-085992c elementor-widget elementor-widget-heading" data-id="085992c" data-element_type="widget" data-widget_type="heading.default">
-				<div class="elementor-widget-container">
-			<h2 class="elementor-heading-title elementor-size-default"><a href="http://theme.123website.com.vn/?id=16603">visit online store
-</a></h2>		</div>
-				</div>
-				<div class="elementor-element elementor-element-510dcdf elementor-widget elementor-widget-heading" data-id="510dcdf" data-element_type="widget" data-widget_type="heading.default">
-				<div class="elementor-widget-container">
-			<h6 class="elementor-heading-title elementor-size-small">Find everything for brewing coffee at our <br>shop</h6>		</div>
-				</div>
-					</div>
-		</div>
-							</div>
-		</section>
-				<section class="elementor-section elementor-top-section elementor-element elementor-element-cac36c0 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="cac36c0" data-element_type="section">
-						<div class="elementor-container elementor-column-gap-default">
-					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-d4cb685" data-id="d4cb685" data-element_type="column">
-			<div class="elementor-widget-wrap elementor-element-populated">
-								<section class="elementor-section elementor-inner-section elementor-element elementor-element-5f01c28 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="5f01c28" data-element_type="section">
-							<div class="elementor-background-overlay"></div>
-							<div class="elementor-container elementor-column-gap-default">
-					<div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-24d69f5" data-id="24d69f5" data-element_type="column">
-			<div class="elementor-widget-wrap elementor-element-populated">
-								<div class="elementor-element elementor-element-8c6b45e elementor-widget__width-initial elementor-widget elementor-widget-image" data-id="8c6b45e" data-element_type="widget" data-widget_type="image.default">
-				<div class="elementor-widget-container">
-															<img width="106" height="60" src="https://giau1703.github.io/mywordpress/wp-content/uploads/2022/09/icon-2.webp" class="attachment-medium size-medium" alt="" loading="lazy">															</div>
-				</div>
-					</div>
-		</div>
-				<div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-d74dc0f" data-id="d74dc0f" data-element_type="column">
-			<div class="elementor-widget-wrap elementor-element-populated">
-								<div class="elementor-element elementor-element-3d7d56c elementor-widget elementor-widget-heading" data-id="3d7d56c" data-element_type="widget" data-widget_type="heading.default">
-				<div class="elementor-widget-container">
-			<h2 class="elementor-heading-title elementor-size-default">Pay for 1, Get 2 ! Happy Hours in Our <br>Cafe!</h2>		</div>
-				</div>
-					</div>
-		</div>
-				<div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-bf1970a" data-id="bf1970a" data-element_type="column">
-			<div class="elementor-widget-wrap elementor-element-populated">
-								<div class="elementor-element elementor-element-ad2ffa5 elementor-align-right elementor-widget__width-initial elementor-widget elementor-widget-button" data-id="ad2ffa5" data-element_type="widget" data-widget_type="button.default">
-				<div class="elementor-widget-container">
-					<div class="elementor-button-wrapper">
-			<a href="http://coffeeluck.themerex.net/about-us/" class="elementor-button-link elementor-button elementor-size-lg" role="button">
-						<span class="elementor-button-content-wrapper">
-						<span class="elementor-button-text">More Info</span>
-		</span>
-					</a>
-		</div>
-				</div>
-				</div>
-					</div>
-		</div>
-							</div>
-		</section>
-					</div>
-		</div>
-							</div>
-		</section>
-				<section class="elementor-section elementor-top-section elementor-element elementor-element-0ae7b52 elementor-section-full_width elementor-section-stretched elementor-section-height-default elementor-section-height-default" data-id="0ae7b52" data-element_type="section" data-settings="{&quot;stretch_section&quot;:&quot;section-stretched&quot;}">
-						<div class="elementor-container elementor-column-gap-no">
-					<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-0e8e8d4" data-id="0e8e8d4" data-element_type="column">
-			<div class="elementor-widget-wrap elementor-element-populated">
-								<div class="elementor-element elementor-element-2ba0b65 elementor-widget elementor-widget-image" data-id="2ba0b65" data-element_type="widget" data-widget_type="image.default">
-				<div class="elementor-widget-container">
-															<img width="960" height="611" src="https://giau1703.github.io/mywordpress/wp-content/uploads/2022/09/background-7.jpg" class="attachment-large size-large" alt="" loading="lazy">															</div>
-				</div>
-					</div>
-		</div>
-				<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-5beddcf" data-id="5beddcf" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-			<div class="elementor-widget-wrap elementor-element-populated">
-								<div class="elementor-element elementor-element-056434e elementor-widget elementor-widget-heading" data-id="056434e" data-element_type="widget" data-widget_type="heading.default">
-				<div class="elementor-widget-container">
-			<h2 class="elementor-heading-title elementor-size-default">HAND CRAFTED & <br>FRESH ROASTED <br>COFFEE</h2>		</div>
-				</div>
-				<div class="elementor-element elementor-element-7495c65 elementor-widget elementor-widget-heading" data-id="7495c65" data-element_type="widget" data-widget_type="heading.default">
-				<div class="elementor-widget-container">
-			<h5 class="elementor-heading-title elementor-size-default">to your door every month</h5>		</div>
-				</div>
-				<div class="elementor-element elementor-element-f314830 elementor-widget elementor-widget-image" data-id="f314830" data-element_type="widget" data-widget_type="image.default">
-				<div class="elementor-widget-container">
-															<img width="78" height="8" src="https://giau1703.github.io/mywordpress/wp-content/uploads/2022/09/divider.webp" class="attachment-large size-large" alt="" loading="lazy">															</div>
-				</div>
-				<div class="elementor-element elementor-element-7b80f5f elementor-widget elementor-widget-heading" data-id="7b80f5f" data-element_type="widget" data-widget_type="heading.default">
-				<div class="elementor-widget-container">
-			<h4 class="elementor-heading-title elementor-size-small">Fresh ground or freshly roasted, high quality and great tasting delivered <br> right to your door. This way, you receive your coffee in <br> peak condition.</h4>		</div>
-				</div>
-					</div>
-		</div>
-							</div>
-		</section>
-				<section class="elementor-section elementor-top-section elementor-element elementor-element-a0643c5 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="a0643c5" data-element_type="section">
-						<div class="elementor-container elementor-column-gap-default">
-					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-8484c2b" data-id="8484c2b" data-element_type="column">
-			<div class="elementor-widget-wrap elementor-element-populated">
-								<div class="elementor-element elementor-element-12d1203 elementor-widget elementor-widget-spacer" data-id="12d1203" data-element_type="widget" data-widget_type="spacer.default">
-				<div class="elementor-widget-container">
-					<div class="elementor-spacer">
-			<div class="elementor-spacer-inner"></div>
-		</div>
-				</div>
-				</div>
-					</div>
-		</div>
-							</div>
-		</section>
-				<section class="elementor-section elementor-top-section elementor-element elementor-element-0b6cc23 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="0b6cc23" data-element_type="section">
-							<div class="elementor-background-overlay"></div>
-							<div class="elementor-container elementor-column-gap-default">
-					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-e6e74cf" data-id="e6e74cf" data-element_type="column">
-			<div class="elementor-widget-wrap elementor-element-populated">
-								<div class="elementor-element elementor-element-c2c1585 elementor-widget elementor-widget-heading" data-id="c2c1585" data-element_type="widget" data-widget_type="heading.default">
-				<div class="elementor-widget-container">
-			<h4 class="elementor-heading-title elementor-size-default">WELCOME THERE!</h4>		</div>
-				</div>
-					</div>
-		</div>
-							</div>
-		</section>
-				<section class="elementor-section elementor-top-section elementor-element elementor-element-842adf8 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="842adf8" data-element_type="section">
-						<div class="elementor-container elementor-column-gap-default">
-					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-8142f72" data-id="8142f72" data-element_type="column">
-			<div class="elementor-widget-wrap elementor-element-populated">
-								<div class="elementor-element elementor-element-32fb1f5 elementor-widget elementor-widget-heading" data-id="32fb1f5" data-element_type="widget" data-widget_type="heading.default">
-				<div class="elementor-widget-container">
-			<h2 class="elementor-heading-title elementor-size-default">SMALL CAFE IN THE HEART OF CITY!</h2>		</div>
-				</div>
-					</div>
-		</div>
-							</div>
-		</section>
-				<section class="elementor-section elementor-top-section elementor-element elementor-element-2c1e9c5 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="2c1e9c5" data-element_type="section">
-						<div class="elementor-container elementor-column-gap-default">
-					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-e740edf" data-id="e740edf" data-element_type="column">
-			<div class="elementor-widget-wrap elementor-element-populated">
-								<div class="elementor-element elementor-element-16b1a31 elementor-widget elementor-widget-heading" data-id="16b1a31" data-element_type="widget" data-widget_type="heading.default">
-				<div class="elementor-widget-container">
-			<h6 class="elementor-heading-title elementor-size-default">We are proud of our coffee shop with the highest-quality products, most inviting stores,<br> friendliest staff and the best coffee in the world.</h6>		</div>
-				</div>
-				<div class="elementor-element elementor-element-c742504 elementor-widget elementor-widget-spacer" data-id="c742504" data-element_type="widget" data-widget_type="spacer.default">
-				<div class="elementor-widget-container">
-					<div class="elementor-spacer">
-			<div class="elementor-spacer-inner"></div>
-		</div>
-				</div>
-				</div>
-					</div>
-		</div>
-							</div>
-		</section>
-				<section class="elementor-section elementor-top-section elementor-element elementor-element-43ddeb8 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="43ddeb8" data-element_type="section">
-						<div class="elementor-container elementor-column-gap-default">
-					<div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-ee06b95" data-id="ee06b95" data-element_type="column">
-			<div class="elementor-widget-wrap elementor-element-populated">
-								<div class="elementor-element elementor-element-7702556 elementor-widget elementor-widget-image" data-id="7702556" data-element_type="widget" data-widget_type="image.default">
-				<div class="elementor-widget-container">
-															<img width="370" height="250" src="https://giau1703.github.io/mywordpress/wp-content/uploads/2022/09/image-15-370x250-2.jpg" class="attachment-large size-large" alt="" loading="lazy">															</div>
-				</div>
-				<div class="elementor-element elementor-element-3abac74 elementor-widget elementor-widget-heading" data-id="3abac74" data-element_type="widget" data-widget_type="heading.default">
-				<div class="elementor-widget-container">
-			<h6 class="elementor-heading-title elementor-size-default"><a href="http://theme.123website.com.vn/?id=16603">WHO WE ARE</a></h6>		</div>
-				</div>
-				<div class="elementor-element elementor-element-dbd35d2 elementor-widget elementor-widget-heading" data-id="dbd35d2" data-element_type="widget" data-widget_type="heading.default">
-				<div class="elementor-widget-container">
-			<h6 class="elementor-heading-title elementor-size-default"><a href="http://theme.123website.com.vn/?id=16603">history</a></h6>		</div>
-				</div>
-					</div>
-		</div>
-				<div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-917b5c4" data-id="917b5c4" data-element_type="column">
-			<div class="elementor-widget-wrap elementor-element-populated">
-								<div class="elementor-element elementor-element-3d14b98 elementor-widget elementor-widget-image" data-id="3d14b98" data-element_type="widget" data-widget_type="image.default">
-				<div class="elementor-widget-container">
-															<img width="370" height="250" src="https://giau1703.github.io/mywordpress/wp-content/uploads/2022/09/image-16-370x250-1.jpg" class="attachment-large size-large" alt="" loading="lazy">															</div>
-				</div>
-				<div class="elementor-element elementor-element-8f12584 elementor-widget elementor-widget-heading" data-id="8f12584" data-element_type="widget" data-widget_type="heading.default">
-				<div class="elementor-widget-container">
-			<h6 class="elementor-heading-title elementor-size-default"><a href="http://theme.123website.com.vn/?id=16603">OUR COFFEE</a></h6>		</div>
-				</div>
-				<div class="elementor-element elementor-element-6c0a0fb elementor-widget elementor-widget-heading" data-id="6c0a0fb" data-element_type="widget" data-widget_type="heading.default">
-				<div class="elementor-widget-container">
-			<h6 class="elementor-heading-title elementor-size-default"><a href="http://theme.123website.com.vn/?id=16603">online store</a></h6>		</div>
-				</div>
-					</div>
-		</div>
-				<div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-769067f" data-id="769067f" data-element_type="column">
-			<div class="elementor-widget-wrap elementor-element-populated">
-								<div class="elementor-element elementor-element-02887b2 elementor-widget elementor-widget-image" data-id="02887b2" data-element_type="widget" data-widget_type="image.default">
-				<div class="elementor-widget-container">
-															<img width="370" height="250" src="https://giau1703.github.io/mywordpress/wp-content/uploads/2022/09/image-17-370x250-1.jpg" class="attachment-large size-large" alt="" loading="lazy">															</div>
-				</div>
-				<div class="elementor-element elementor-element-6278e42 elementor-widget elementor-widget-heading" data-id="6278e42" data-element_type="widget" data-widget_type="heading.default">
-				<div class="elementor-widget-container">
-			<h6 class="elementor-heading-title elementor-size-default"><a href="http://theme.123website.com.vn/?id=16603">VISIT US!</a></h6>		</div>
-				</div>
-				<div class="elementor-element elementor-element-aecd1f9 elementor-widget elementor-widget-heading" data-id="aecd1f9" data-element_type="widget" data-widget_type="heading.default">
-				<div class="elementor-widget-container">
-			<h6 class="elementor-heading-title elementor-size-default"><a href="http://theme.123website.com.vn/?id=16603">location</a></h6>		</div>
-				</div>
-					</div>
-		</div>
-							</div>
-		</section>
-				<section class="elementor-section elementor-top-section elementor-element elementor-element-16e7925 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="16e7925" data-element_type="section">
-						<div class="elementor-container elementor-column-gap-default">
-					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-3240628" data-id="3240628" data-element_type="column">
-			<div class="elementor-widget-wrap elementor-element-populated">
-								<div class="elementor-element elementor-element-2f1ff02 elementor-widget elementor-widget-spacer" data-id="2f1ff02" data-element_type="widget" data-widget_type="spacer.default">
-				<div class="elementor-widget-container">
-					<div class="elementor-spacer">
-			<div class="elementor-spacer-inner"></div>
-		</div>
-				</div>
-				</div>
-					</div>
-		</div>
-							</div>
-		</section>
-				<section class="elementor-section elementor-top-section elementor-element elementor-element-a6ab046 elementor-section-full_width elementor-section-stretched elementor-section-height-default elementor-section-height-default" data-id="a6ab046" data-element_type="section" data-settings="{&quot;stretch_section&quot;:&quot;section-stretched&quot;}">
-						<div class="elementor-container elementor-column-gap-no">
-					<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-9e4048c" data-id="9e4048c" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-			<div class="elementor-widget-wrap elementor-element-populated">
-								<div class="elementor-element elementor-element-496810e elementor-widget elementor-widget-heading" data-id="496810e" data-element_type="widget" data-widget_type="heading.default">
-				<div class="elementor-widget-container">
-			<h2 class="elementor-heading-title elementor-size-default">THE FUNDAMENTALS OF COFFEE BREWING</h2>		</div>
-				</div>
-				<div class="elementor-element elementor-element-f628664 elementor-widget elementor-widget-heading" data-id="f628664" data-element_type="widget" data-widget_type="heading.default">
-				<div class="elementor-widget-container">
-			<h5 class="elementor-heading-title elementor-size-default">Choose Your Favorite One!</h5>		</div>
-				</div>
-				<div class="elementor-element elementor-element-2b99ff2 elementor-widget elementor-widget-image" data-id="2b99ff2" data-element_type="widget" data-widget_type="image.default">
-				<div class="elementor-widget-container">
-															<img width="78" height="8" src="https://giau1703.github.io/mywordpress/wp-content/uploads/2022/09/divider.webp" class="attachment-large size-large" alt="" loading="lazy">															</div>
-				</div>
-				<div class="elementor-element elementor-element-3dfde5c elementor-align-center elementor-widget elementor-widget-button" data-id="3dfde5c" data-element_type="widget" data-widget_type="button.default">
-				<div class="elementor-widget-container">
-					<div class="elementor-button-wrapper">
-			<a href="https://vimeo.com/139500258" target="_blank" class="elementor-button-link elementor-button elementor-size-sm" role="button">
-						<span class="elementor-button-content-wrapper">
-						<span class="elementor-button-text">Watch Video</span>
-		</span>
-					</a>
-		</div>
-				</div>
-				</div>
-					</div>
-		</div>
-				<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-1dce1c1" data-id="1dce1c1" data-element_type="column">
-			<div class="elementor-widget-wrap elementor-element-populated">
-								<div class="elementor-element elementor-element-f197c7a elementor-widget elementor-widget-image" data-id="f197c7a" data-element_type="widget" data-widget_type="image.default">
-				<div class="elementor-widget-container">
-															<img width="960" height="627" src="https://giau1703.github.io/mywordpress/wp-content/uploads/2022/09/background-6.jpg" class="attachment-large size-large" alt="" loading="lazy">															</div>
-				</div>
-					</div>
-		</div>
-							</div>
-		</section>
-				<section class="elementor-section elementor-top-section elementor-element elementor-element-0502426 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="0502426" data-element_type="section">
-						<div class="elementor-container elementor-column-gap-default">
-					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-16ea4ae" data-id="16ea4ae" data-element_type="column">
-			<div class="elementor-widget-wrap elementor-element-populated">
-								<div class="elementor-element elementor-element-816444a elementor-widget elementor-widget-spacer" data-id="816444a" data-element_type="widget" data-widget_type="spacer.default">
-				<div class="elementor-widget-container">
-					<div class="elementor-spacer">
-			<div class="elementor-spacer-inner"></div>
-		</div>
-				</div>
-				</div>
-					</div>
-		</div>
-							</div>
-		</section>
-				<section class="elementor-section elementor-top-section elementor-element elementor-element-1f48aec elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="1f48aec" data-element_type="section">
-							<div class="elementor-background-overlay"></div>
-							<div class="elementor-container elementor-column-gap-default">
-					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-7339f08" data-id="7339f08" data-element_type="column">
-			<div class="elementor-widget-wrap elementor-element-populated">
-								<div class="elementor-element elementor-element-46a54c5 elementor-widget elementor-widget-heading" data-id="46a54c5" data-element_type="widget" data-widget_type="heading.default">
-				<div class="elementor-widget-container">
-			<h4 class="elementor-heading-title elementor-size-default">BLOG UPDATES</h4>		</div>
-				</div>
-					</div>
-		</div>
-							</div>
-		</section>
-				<section class="elementor-section elementor-top-section elementor-element elementor-element-7f6722e elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="7f6722e" data-element_type="section">
-						<div class="elementor-container elementor-column-gap-default">
-					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-524ed14" data-id="524ed14" data-element_type="column">
-			<div class="elementor-widget-wrap elementor-element-populated">
-								<div class="elementor-element elementor-element-45028cd elementor-widget elementor-widget-heading" data-id="45028cd" data-element_type="widget" data-widget_type="heading.default">
-				<div class="elementor-widget-container">
-			<h2 class="elementor-heading-title elementor-size-default">FRESH COFFEESHOP NEWS</h2>		</div>
-				</div>
-					</div>
-		</div>
-							</div>
-		</section>
-				<section class="elementor-section elementor-top-section elementor-element elementor-element-5b58622 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="5b58622" data-element_type="section">
-						<div class="elementor-container elementor-column-gap-default">
-					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-7226b3c" data-id="7226b3c" data-element_type="column">
-			<div class="elementor-widget-wrap elementor-element-populated">
-								<div class="elementor-element elementor-element-06ad1cb elementor-widget elementor-widget-spacer" data-id="06ad1cb" data-element_type="widget" data-widget_type="spacer.default">
-				<div class="elementor-widget-container">
-					<div class="elementor-spacer">
-			<div class="elementor-spacer-inner"></div>
-		</div>
-				</div>
-				</div>
-					</div>
-		</div>
-							</div>
-		</section>
-				<section class="elementor-section elementor-top-section elementor-element elementor-element-41aafae elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="41aafae" data-element_type="section">
-						<div class="elementor-container elementor-column-gap-default">
-					<div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-ba0ae31" data-id="ba0ae31" data-element_type="column">
-			<div class="elementor-widget-wrap elementor-element-populated">
-								<div class="elementor-element elementor-element-100f95d elementor-align-center elementor-widget elementor-widget-button" data-id="100f95d" data-element_type="widget" data-widget_type="button.default">
-				<div class="elementor-widget-container">
-					<div class="elementor-button-wrapper">
-			<a href="http://theme.123website.com.vn/?id=16603" class="elementor-button-link elementor-button elementor-size-sm" role="button">
-						<span class="elementor-button-content-wrapper">
-						<span class="elementor-button-text">AUG 8, 2016</span>
-		</span>
-					</a>
-		</div>
-				</div>
-				</div>
-				<div class="elementor-element elementor-element-d4bce8f elementor-widget elementor-widget-heading" data-id="d4bce8f" data-element_type="widget" data-widget_type="heading.default">
-				<div class="elementor-widget-container">
-			<h4 class="elementor-heading-title elementor-size-default">Guide to Coffee Brewing</h4>		</div>
-				</div>
-				<div class="elementor-element elementor-element-4e9ba91 elementor-widget elementor-widget-heading" data-id="4e9ba91" data-element_type="widget" data-widget_type="heading.default">
-				<div class="elementor-widget-container">
-			<h5 class="elementor-heading-title elementor-size-default">Lorem ipsum dolor sit amet, consectetur adipiscing <br> elit. Nunc porta fringilla ullamcorper. Morbi felis<br> orci, lacinia a velit et, sodales…</h5>		</div>
-				</div>
-				<div class="elementor-element elementor-element-ea1afee elementor-widget elementor-widget-heading" data-id="ea1afee" data-element_type="widget" data-widget_type="heading.default">
-				<div class="elementor-widget-container">
-			<h6 class="elementor-heading-title elementor-size-default"><a href="http://theme.123website.com.vn/?id=16603">3 COMMENTS</a></h6>		</div>
-				</div>
-					</div>
-		</div>
-				<div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-659dfd8" data-id="659dfd8" data-element_type="column">
-			<div class="elementor-widget-wrap elementor-element-populated">
-								<div class="elementor-element elementor-element-19b6df2 elementor-align-center elementor-widget elementor-widget-button" data-id="19b6df2" data-element_type="widget" data-widget_type="button.default">
-				<div class="elementor-widget-container">
-					<div class="elementor-button-wrapper">
-			<a href="http://theme.123website.com.vn/?id=16603" class="elementor-button-link elementor-button elementor-size-sm" role="button">
-						<span class="elementor-button-content-wrapper">
-						<span class="elementor-button-text">AUG 8, 2016</span>
-		</span>
-					</a>
-		</div>
-				</div>
-				</div>
-				<div class="elementor-element elementor-element-ab6dcba elementor-widget elementor-widget-heading" data-id="ab6dcba" data-element_type="widget" data-widget_type="heading.default">
-				<div class="elementor-widget-container">
-			<h4 class="elementor-heading-title elementor-size-default">Dispatches: South Pacific</h4>		</div>
-				</div>
-				<div class="elementor-element elementor-element-1b73495 elementor-widget elementor-widget-heading" data-id="1b73495" data-element_type="widget" data-widget_type="heading.default">
-				<div class="elementor-widget-container">
-			<h5 class="elementor-heading-title elementor-size-default">Lorem ipsum dolor sit amet, consectetur adipiscing <br> elit. Nunc porta fringilla ullamcorper. Morbi felis<br> orci, lacinia a velit et, sodales…</h5>		</div>
-				</div>
-				<div class="elementor-element elementor-element-1067dd4 elementor-widget elementor-widget-heading" data-id="1067dd4" data-element_type="widget" data-widget_type="heading.default">
-				<div class="elementor-widget-container">
-			<h6 class="elementor-heading-title elementor-size-default"><a href="http://theme.123website.com.vn/?id=16603">3 COMMENTS</a></h6>		</div>
-				</div>
-					</div>
-		</div>
-				<div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-3eab4e6" data-id="3eab4e6" data-element_type="column">
-			<div class="elementor-widget-wrap elementor-element-populated">
-								<div class="elementor-element elementor-element-84e8e55 elementor-align-center elementor-widget elementor-widget-button" data-id="84e8e55" data-element_type="widget" data-widget_type="button.default">
-				<div class="elementor-widget-container">
-					<div class="elementor-button-wrapper">
-			<a href="http://theme.123website.com.vn/?id=16603" class="elementor-button-link elementor-button elementor-size-sm" role="button">
-						<span class="elementor-button-content-wrapper">
-						<span class="elementor-button-text">AUG 8, 2016</span>
-		</span>
-					</a>
-		</div>
-				</div>
-				</div>
-				<div class="elementor-element elementor-element-7e679b8 elementor-widget elementor-widget-heading" data-id="7e679b8" data-element_type="widget" data-widget_type="heading.default">
-				<div class="elementor-widget-container">
-			<h4 class="elementor-heading-title elementor-size-default">Summer 2016 Arrivals</h4>		</div>
-				</div>
-				<div class="elementor-element elementor-element-53c99d5 elementor-widget elementor-widget-heading" data-id="53c99d5" data-element_type="widget" data-widget_type="heading.default">
-				<div class="elementor-widget-container">
-			<h5 class="elementor-heading-title elementor-size-default">Lorem ipsum dolor sit amet, consectetur adipiscing <br> elit. Nunc porta fringilla ullamcorper. Morbi felis<br> orci, lacinia a velit et, sodales…</h5>		</div>
-				</div>
-				<div class="elementor-element elementor-element-637d569 elementor-widget elementor-widget-heading" data-id="637d569" data-element_type="widget" data-widget_type="heading.default">
-				<div class="elementor-widget-container">
-			<h6 class="elementor-heading-title elementor-size-default"><a href="http://theme.123website.com.vn/?id=16603">3 COMMENTS</a></h6>		</div>
-				</div>
-					</div>
-		</div>
-							</div>
-		</section>
-				<section class="elementor-section elementor-top-section elementor-element elementor-element-68936e6 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="68936e6" data-element_type="section">
-						<div class="elementor-container elementor-column-gap-default">
-					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-8845079" data-id="8845079" data-element_type="column">
-			<div class="elementor-widget-wrap elementor-element-populated">
-								<div class="elementor-element elementor-element-18d92b2 elementor-widget elementor-widget-spacer" data-id="18d92b2" data-element_type="widget" data-widget_type="spacer.default">
-				<div class="elementor-widget-container">
-					<div class="elementor-spacer">
-			<div class="elementor-spacer-inner"></div>
-		</div>
-				</div>
-				</div>
-					</div>
-		</div>
-							</div>
-		</section>
-				<section class="elementor-section elementor-top-section elementor-element elementor-element-c4f6cef elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="c4f6cef" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-						<div class="elementor-container elementor-column-gap-default">
-					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-881e138" data-id="881e138" data-element_type="column">
-			<div class="elementor-widget-wrap elementor-element-populated">
-								<section class="elementor-section elementor-inner-section elementor-element elementor-element-00331a9 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="00331a9" data-element_type="section">
-							<div class="elementor-background-overlay"></div>
-							<div class="elementor-container elementor-column-gap-default">
-					<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-01f46f1" data-id="01f46f1" data-element_type="column">
-			<div class="elementor-widget-wrap elementor-element-populated">
-								<div class="elementor-element elementor-element-aa33615 elementor-widget elementor-widget-heading" data-id="aa33615" data-element_type="widget" data-widget_type="heading.default">
-				<div class="elementor-widget-container">
-			<h4 class="elementor-heading-title elementor-size-default">
-Sign Up For Our Updates!</h4>		</div>
-				</div>
-					</div>
-		</div>
-				<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-c7c6a2d" data-id="c7c6a2d" data-element_type="column">
-			<div class="elementor-widget-wrap elementor-element-populated">
-								<div class="elementor-element elementor-element-cbb6dd4 elementor-button-align-stretch elementor-widget elementor-widget-form" data-id="cbb6dd4" data-element_type="widget" data-settings="{&quot;button_width&quot;:&quot;50&quot;,&quot;step_next_label&quot;:&quot;Next&quot;,&quot;step_previous_label&quot;:&quot;Previous&quot;,&quot;step_type&quot;:&quot;none&quot;,&quot;step_icon_shape&quot;:&quot;circle&quot;}" data-widget_type="form.default">
-				<div class="elementor-widget-container">
-			<style>/*! elementor-pro - v3.7.1 - 16-05-2022 */
-.elementor-button.elementor-hidden,.elementor-hidden{display:none}.e-form__step{width:100%}.e-form__step:not(.elementor-hidden){display:-webkit-box;display:-ms-flexbox;display:flex;-ms-flex-wrap:wrap;flex-wrap:wrap}.e-form__buttons{-ms-flex-wrap:wrap;flex-wrap:wrap}.e-form__buttons,.e-form__buttons__wrapper{display:-webkit-box;display:-ms-flexbox;display:flex}.e-form__indicators{-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;-ms-flex-wrap:nowrap;flex-wrap:nowrap;font-size:13px;margin-bottom:var(--e-form-steps-indicators-spacing)}.e-form__indicators,.e-form__indicators__indicator{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center}.e-form__indicators__indicator{-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;-ms-flex-preferred-size:0;flex-basis:0;padding:0 var(--e-form-steps-divider-gap)}.e-form__indicators__indicator__progress{width:100%;position:relative;background-color:var(--e-form-steps-indicator-progress-background-color);border-radius:var(--e-form-steps-indicator-progress-border-radius);overflow:hidden}.e-form__indicators__indicator__progress__meter{width:var(--e-form-steps-indicator-progress-meter-width,0);height:var(--e-form-steps-indicator-progress-height);line-height:var(--e-form-steps-indicator-progress-height);padding-right:15px;border-radius:var(--e-form-steps-indicator-progress-border-radius);background-color:var(--e-form-steps-indicator-progress-color);color:var(--e-form-steps-indicator-progress-meter-color);text-align:right;-webkit-transition:width .1s linear;-o-transition:width .1s linear;transition:width .1s linear}.e-form__indicators__indicator:first-child{padding-left:0}.e-form__indicators__indicator:last-child{padding-right:0}.e-form__indicators__indicator--state-inactive{color:var(--e-form-steps-indicator-inactive-primary-color,#c2cbd2)}.e-form__indicators__indicator--state-inactive [class*=indicator--shape-]:not(.e-form__indicators__indicator--shape-none){background-color:var(--e-form-steps-indicator-inactive-secondary-color,#fff)}.e-form__indicators__indicator--state-inactive object,.e-form__indicators__indicator--state-inactive svg{fill:var(--e-form-steps-indicator-inactive-primary-color,#c2cbd2)}.e-form__indicators__indicator--state-active{color:var(--e-form-steps-indicator-active-primary-color,#39b54a);border-color:var(--e-form-steps-indicator-active-secondary-color,#fff)}.e-form__indicators__indicator--state-active [class*=indicator--shape-]:not(.e-form__indicators__indicator--shape-none){background-color:var(--e-form-steps-indicator-active-secondary-color,#fff)}.e-form__indicators__indicator--state-active object,.e-form__indicators__indicator--state-active svg{fill:var(--e-form-steps-indicator-active-primary-color,#39b54a)}.e-form__indicators__indicator--state-completed{color:var(--e-form-steps-indicator-completed-secondary-color,#fff)}.e-form__indicators__indicator--state-completed [class*=indicator--shape-]:not(.e-form__indicators__indicator--shape-none){background-color:var(--e-form-steps-indicator-completed-primary-color,#39b54a)}.e-form__indicators__indicator--state-completed .e-form__indicators__indicator__label{color:var(--e-form-steps-indicator-completed-primary-color,#39b54a)}.e-form__indicators__indicator--state-completed .e-form__indicators__indicator--shape-none{color:var(--e-form-steps-indicator-completed-primary-color,#39b54a);background-color:initial}.e-form__indicators__indicator--state-completed object,.e-form__indicators__indicator--state-completed svg{fill:var(--e-form-steps-indicator-completed-secondary-color,#fff)}.e-form__indicators__indicator__icon{width:var(--e-form-steps-indicator-padding,30px);height:var(--e-form-steps-indicator-padding,30px);font-size:var(--e-form-steps-indicator-icon-size);border-width:1px;border-style:solid;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;overflow:hidden;margin-bottom:10px}.e-form__indicators__indicator__icon img,.e-form__indicators__indicator__icon object,.e-form__indicators__indicator__icon svg{width:var(--e-form-steps-indicator-icon-size);height:auto}.e-form__indicators__indicator__icon .e-font-icon-svg{height:1em}.e-form__indicators__indicator__number{width:var(--e-form-steps-indicator-padding,30px);height:var(--e-form-steps-indicator-padding,30px);border-width:1px;border-style:solid;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;margin-bottom:10px}.e-form__indicators__indicator--shape-circle{border-radius:50%}.e-form__indicators__indicator--shape-square{border-radius:0}.e-form__indicators__indicator--shape-rounded{border-radius:5px}.e-form__indicators__indicator--shape-none{border:0}.e-form__indicators__indicator__label{text-align:center}.e-form__indicators__indicator__separator{width:100%;height:var(--e-form-steps-divider-width);background-color:#c2cbd2}.e-form__indicators--type-icon,.e-form__indicators--type-icon_text,.e-form__indicators--type-number,.e-form__indicators--type-number_text{-webkit-box-align:start;-ms-flex-align:start;align-items:flex-start}.e-form__indicators--type-icon .e-form__indicators__indicator__separator,.e-form__indicators--type-icon_text .e-form__indicators__indicator__separator,.e-form__indicators--type-number .e-form__indicators__indicator__separator,.e-form__indicators--type-number_text .e-form__indicators__indicator__separator{margin-top:calc(var(--e-form-steps-indicator-padding, 30px) / 2 - var(--e-form-steps-divider-width, 1px) / 2)}.elementor-field-type-hidden{display:none}.elementor-field-type-html{display:inline-block}.elementor-login .elementor-lost-password,.elementor-login .elementor-remember-me{font-size:.85em}.elementor-field-type-recaptcha_v3 .elementor-field-label{display:none}.elementor-field-type-recaptcha_v3 .grecaptcha-badge{z-index:1}.elementor-button .elementor-form-spinner{-webkit-box-ordinal-group:4;-ms-flex-order:3;order:3}.elementor-form .elementor-button>span{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center}.elementor-form .elementor-button .elementor-button-text{white-space:normal;-webkit-box-flex:0;-ms-flex-positive:0;flex-grow:0}.elementor-form .elementor-button svg{height:auto}.elementor-form .elementor-button .e-font-icon-svg{height:1em}</style>		<form class="elementor-form" method="post" name="New Form">
-			<input type="hidden" name="post_id" value="276">
-			<input type="hidden" name="form_id" value="cbb6dd4">
-			<input type="hidden" name="referer_title" value="">
+		
+	<div id="primary" class="content-area">
+		<main id="main" class="site-main" role="main">
 
-							<input type="hidden" name="queried_id" value="276">
 			
-			<div class="elementor-form-fields-wrapper elementor-labels-above">
-								<div class="elementor-field-type-email elementor-field-group elementor-column elementor-field-group-email elementor-col-50 elementor-field-required">
-													<input size="1" type="email" name="form_fields[email]" id="form-field-email" class="elementor-field elementor-size-sm  elementor-field-textual" placeholder="Enter Email" required="required" aria-required="true">
-											</div>
-								<div class="elementor-field-group elementor-column elementor-field-type-submit elementor-col-50 e-form__buttons">
-					<button type="submit" class="elementor-button elementor-size-sm">
-						<span>
-															<span class=" elementor-button-icon">
-																										</span>
-																						<span class="elementor-button-text">Submit</span>
-													</span>
-					</button>
-				</div>
-			</div>
-		</form>
-				</div>
-				</div>
-					</div>
-		</div>
-							</div>
-		</section>
-					</div>
-		</div>
-							</div>
-		</section>
-				<section class="elementor-section elementor-top-section elementor-element elementor-element-c2098c0 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="c2098c0" data-element_type="section">
-						<div class="elementor-container elementor-column-gap-default">
-					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-3e6ed09" data-id="3e6ed09" data-element_type="column">
-			<div class="elementor-widget-wrap elementor-element-populated">
-								<div class="elementor-element elementor-element-48df574 elementor-widget elementor-widget-spacer" data-id="48df574" data-element_type="widget" data-widget_type="spacer.default">
-				<div class="elementor-widget-container">
-					<div class="elementor-spacer">
-			<div class="elementor-spacer-inner"></div>
-		</div>
-				</div>
-				</div>
-					</div>
-		</div>
-							</div>
-		</section>
-				<section class="elementor-section elementor-top-section elementor-element elementor-element-b00082a elementor-section-full_width elementor-section-height-default elementor-section-height-default" data-id="b00082a" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-							<div class="elementor-background-overlay"></div>
-							<div class="elementor-container elementor-column-gap-default">
-					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-f012e39" data-id="f012e39" data-element_type="column">
-			<div class="elementor-widget-wrap elementor-element-populated">
-								<div class="elementor-element elementor-element-0e09ec9 elementor-widget elementor-widget-heading" data-id="0e09ec9" data-element_type="widget" data-widget_type="heading.default">
-				<div class="elementor-widget-container">
-			<h4 class="elementor-heading-title elementor-size-default">ONLINE STORE</h4>		</div>
-				</div>
-				<div class="elementor-element elementor-element-0fe2abe elementor-absolute elementor-widget elementor-widget-heading" data-id="0fe2abe" data-element_type="widget" data-settings="{&quot;_position&quot;:&quot;absolute&quot;}" data-widget_type="heading.default">
-				<div class="elementor-widget-container">
-			<h1 class="elementor-heading-title elementor-size-default">ITEMS IN OUR SHOP</h1>		</div>
-				</div>
-					</div>
-		</div>
-							</div>
-		</section>
-				<section class="elementor-section elementor-top-section elementor-element elementor-element-88d9fbe elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="88d9fbe" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-							<div class="elementor-background-overlay"></div>
-							<div class="elementor-container elementor-column-gap-default">
-					<div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-81d37ef" data-id="81d37ef" data-element_type="column">
-			<div class="elementor-widget-wrap elementor-element-populated">
-								<div class="elementor-element elementor-element-4e8ad68 elementor-widget elementor-widget-image" data-id="4e8ad68" data-element_type="widget" data-widget_type="image.default">
-				<div class="elementor-widget-container">
-															<img width="370" height="414" src="https://giau1703.github.io/mywordpress/wp-content/uploads/2022/09/product-1-370x414-1.webp" class="elementor-animation-pulse attachment-large size-large" alt="" loading="lazy">															</div>
-				</div>
-				<div class="elementor-element elementor-element-4f0bcd0 elementor-widget elementor-widget-heading" data-id="4f0bcd0" data-element_type="widget" data-widget_type="heading.default">
-				<div class="elementor-widget-container">
-			<h4 class="elementor-heading-title elementor-size-default">COFFEE WITH CREAM GOLD COLLECTION</h4>		</div>
-				</div>
-				<div class="elementor-element elementor-element-1f12203 elementor-widget elementor-widget-heading" data-id="1f12203" data-element_type="widget" data-widget_type="heading.default">
-				<div class="elementor-widget-container">
-			<h6 class="elementor-heading-title elementor-size-default"><a href="http://theme.123website.com.vn/?id=16603">$38.00</a></h6>		</div>
-				</div>
-					</div>
-		</div>
-				<div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-ca4af53" data-id="ca4af53" data-element_type="column">
-			<div class="elementor-widget-wrap elementor-element-populated">
-								<div class="elementor-element elementor-element-15ff8f8 elementor-widget elementor-widget-image" data-id="15ff8f8" data-element_type="widget" data-widget_type="image.default">
-				<div class="elementor-widget-container">
-															<img width="370" height="414" src="https://giau1703.github.io/mywordpress/wp-content/uploads/2022/09/product-2-370x414-1.webp" class="elementor-animation-pulse attachment-large size-large" alt="" loading="lazy">															</div>
-				</div>
-				<div class="elementor-element elementor-element-db053e0 elementor-widget elementor-widget-heading" data-id="db053e0" data-element_type="widget" data-widget_type="heading.default">
-				<div class="elementor-widget-container">
-			<h4 class="elementor-heading-title elementor-size-default">GLASS COFFEE JAR WITH WOOD COLLAR</h4>		</div>
-				</div>
-				<div class="elementor-element elementor-element-8592da9 elementor-widget elementor-widget-heading" data-id="8592da9" data-element_type="widget" data-widget_type="heading.default">
-				<div class="elementor-widget-container">
-			<h6 class="elementor-heading-title elementor-size-default"><a href="http://theme.123website.com.vn/?id=16603">$35.00</a></h6>		</div>
-				</div>
-				<div class="elementor-element elementor-element-de257c1 elementor-widget elementor-widget-spacer" data-id="de257c1" data-element_type="widget" data-widget_type="spacer.default">
-				<div class="elementor-widget-container">
-					<div class="elementor-spacer">
-			<div class="elementor-spacer-inner"></div>
-		</div>
-				</div>
-				</div>
-				<div class="elementor-element elementor-element-30568ad elementor-align-center elementor-widget elementor-widget-button" data-id="30568ad" data-element_type="widget" data-widget_type="button.default">
-				<div class="elementor-widget-container">
-					<div class="elementor-button-wrapper">
-			<a href="http://theme.123website.com.vn/?id=16603" class="elementor-button-link elementor-button elementor-size-md" role="button">
-						<span class="elementor-button-content-wrapper">
-						<span class="elementor-button-text">Shop the Blend</span>
-		</span>
-					</a>
-		</div>
-				</div>
-				</div>
-					</div>
-		</div>
-				<div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-5c03bfd" data-id="5c03bfd" data-element_type="column">
-			<div class="elementor-widget-wrap elementor-element-populated">
-								<div class="elementor-element elementor-element-2505be3 elementor-widget elementor-widget-image" data-id="2505be3" data-element_type="widget" data-widget_type="image.default">
-				<div class="elementor-widget-container">
-															<img width="370" height="414" src="https://giau1703.github.io/mywordpress/wp-content/uploads/2022/09/product-3-1-1-370x414-1.webp" class="elementor-animation-pulse attachment-large size-large" alt="" loading="lazy">															</div>
-				</div>
-				<div class="elementor-element elementor-element-52419b5 elementor-widget elementor-widget-heading" data-id="52419b5" data-element_type="widget" data-widget_type="heading.default">
-				<div class="elementor-widget-container">
-			<h4 class="elementor-heading-title elementor-size-default">HIGH QUALITY GROUND<br> COFFEE</h4>		</div>
-				</div>
-				<div class="elementor-element elementor-element-366dcc8 elementor-widget elementor-widget-heading" data-id="366dcc8" data-element_type="widget" data-widget_type="heading.default">
-				<div class="elementor-widget-container">
-			<h6 class="elementor-heading-title elementor-size-default"><a href="http://theme.123website.com.vn/?id=16603">$21.00</a></h6>		</div>
-				</div>
-					</div>
-		</div>
-							</div>
-		</section>
-				<section class="elementor-section elementor-top-section elementor-element elementor-element-327541a elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="327541a" data-element_type="section">
-						<div class="elementor-container elementor-column-gap-default">
-					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-11bf547" data-id="11bf547" data-element_type="column">
-			<div class="elementor-widget-wrap elementor-element-populated">
-								<div class="elementor-element elementor-element-017fcca elementor-widget elementor-widget-spacer" data-id="017fcca" data-element_type="widget" data-widget_type="spacer.default">
-				<div class="elementor-widget-container">
-					<div class="elementor-spacer">
-			<div class="elementor-spacer-inner"></div>
-		</div>
-				</div>
-				</div>
-					</div>
-		</div>
-							</div>
-		</section>
-				<section class="elementor-section elementor-top-section elementor-element elementor-element-1bce214 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="1bce214" data-element_type="section">
-						<div class="elementor-container elementor-column-gap-default">
-					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-c092a9b" data-id="c092a9b" data-element_type="column">
-			<div class="elementor-widget-wrap elementor-element-populated">
-								<div class="elementor-element elementor-element-f380ce1 elementor-widget elementor-widget-image" data-id="f380ce1" data-element_type="widget" data-widget_type="image.default">
-				<div class="elementor-widget-container">
-															<img width="1024" height="254" src="https://giau1703.github.io/mywordpress/wp-content/uploads/2022/09/image-11.jpg" class="attachment-large size-large" alt="" loading="lazy">															</div>
-				</div>
-					</div>
-		</div>
-							</div>
-		</section>
-				<section class="elementor-section elementor-top-section elementor-element elementor-element-93738ea elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="93738ea" data-element_type="section">
-						<div class="elementor-container elementor-column-gap-default">
-					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-cd4c202" data-id="cd4c202" data-element_type="column">
-			<div class="elementor-widget-wrap elementor-element-populated">
-								<div class="elementor-element elementor-element-03394ee elementor-widget elementor-widget-spacer" data-id="03394ee" data-element_type="widget" data-widget_type="spacer.default">
-				<div class="elementor-widget-container">
-					<div class="elementor-spacer">
-			<div class="elementor-spacer-inner"></div>
-		</div>
-				</div>
-				</div>
-					</div>
-		</div>
-							</div>
-		</section>
-				<section class="elementor-section elementor-top-section elementor-element elementor-element-d4b061f elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="d4b061f" data-element_type="section">
-							<div class="elementor-background-overlay"></div>
-							<div class="elementor-container elementor-column-gap-default">
-					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-270c039" data-id="270c039" data-element_type="column">
-			<div class="elementor-widget-wrap elementor-element-populated">
-								<div class="elementor-element elementor-element-759bdd0 elementor-widget elementor-widget-heading" data-id="759bdd0" data-element_type="widget" data-widget_type="heading.default">
-				<div class="elementor-widget-container">
-			<h4 class="elementor-heading-title elementor-size-default">TESTIMONIALS</h4>		</div>
-				</div>
-					</div>
-		</div>
-							</div>
-		</section>
-				<section class="elementor-section elementor-top-section elementor-element elementor-element-643b0e7 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="643b0e7" data-element_type="section">
-						<div class="elementor-container elementor-column-gap-default">
-					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-fbc6573" data-id="fbc6573" data-element_type="column">
-			<div class="elementor-widget-wrap elementor-element-populated">
-								<div class="elementor-element elementor-element-6745c9c elementor-widget elementor-widget-spacer" data-id="6745c9c" data-element_type="widget" data-widget_type="spacer.default">
-				<div class="elementor-widget-container">
-					<div class="elementor-spacer">
-			<div class="elementor-spacer-inner"></div>
-		</div>
-				</div>
-				</div>
-					</div>
-		</div>
-							</div>
-		</section>
-				<section class="elementor-section elementor-top-section elementor-element elementor-element-df173a5 elementor-section-full_width elementor-section-height-default elementor-section-height-default" data-id="df173a5" data-element_type="section">
-						<div class="elementor-container elementor-column-gap-default">
-					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-e3ce80b" data-id="e3ce80b" data-element_type="column">
-			<div class="elementor-widget-wrap elementor-element-populated">
-								<div class="elementor-element elementor-element-d700bf3 elementor-testimonial--layout-image_stacked elementor-testimonial--skin-default elementor-testimonial--align-center elementor-arrows-yes elementor-pagination-type-bullets elementor-widget elementor-widget-testimonial-carousel" data-id="d700bf3" data-element_type="widget" data-settings="{&quot;show_arrows&quot;:&quot;yes&quot;,&quot;pagination&quot;:&quot;bullets&quot;,&quot;speed&quot;:500,&quot;autoplay&quot;:&quot;yes&quot;,&quot;autoplay_speed&quot;:5000,&quot;loop&quot;:&quot;yes&quot;,&quot;pause_on_hover&quot;:&quot;yes&quot;,&quot;pause_on_interaction&quot;:&quot;yes&quot;,&quot;space_between&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:10,&quot;sizes&quot;:[]},&quot;space_between_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:10,&quot;sizes&quot;:[]},&quot;space_between_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:10,&quot;sizes&quot;:[]}}" data-widget_type="testimonial-carousel.default">
-				<div class="elementor-widget-container">
-			<link rel="stylesheet" href="https://giau1703.github.io/mywordpress/wp-content/plugins/elementor-pro/assets/css/widget-carousel.min.css">		<div class="elementor-swiper">
-			<div class="elementor-main-swiper swiper-container">
-				<div class="swiper-wrapper">
-											<div class="swiper-slide">
-									<div class="elementor-testimonial">
-							<div class="elementor-testimonial__content">
-					<div class="elementor-testimonial__text">
-						"I GOT STARTED DRINKING COFFEE YEARS AGO WHEN MY <br>SISTER SHOWED COFFEE SHOP TO ME AND IT’S BEEN MY <br>FAVORITE BEVERAGE EVER SINCE!"
+<article id="post-350" class="post-350 page type-page status-publish hentry">
+			<header class="entry-header">
+			<h1 class="entry-title">Homepage</h1>		</header><!-- .entry-header -->
+				<div class="entry-content">
+								</div>
+<!-- .entry-content -->
+		</article><!-- #post-## -->
 
-					</div>
-									</div>
-						<div class="elementor-testimonial__footer">
-									<div class="elementor-testimonial__image">
-						<img src="https://giau1703.github.io/mywordpress/wp-content/uploads/2022/09/testimonials-1-64x64-1.jpg" alt="Jessica Rolands">
-											</div>
-								<cite class="elementor-testimonial__cite"><span class="elementor-testimonial__name">Jessica Rolands</span></cite>			</div>
-		</div>
-								</div>
-											<div class="swiper-slide">
-									<div class="elementor-testimonial">
-							<div class="elementor-testimonial__content">
-					<div class="elementor-testimonial__text">
-						"Whatever you are doing with coffee, keep doing it.<br> I love your coffee. I drink coffee every morning, i<br> can't start my day without it."					</div>
-									</div>
-						<div class="elementor-testimonial__footer">
-									<div class="elementor-testimonial__image">
-						<img src="https://giau1703.github.io/mywordpress/wp-content/uploads/2022/09/testimonials-3-64x64-1.jpg" alt="Lester Castro">
-											</div>
-								<cite class="elementor-testimonial__cite"><span class="elementor-testimonial__name">Lester Castro</span></cite>			</div>
-		</div>
-								</div>
-											<div class="swiper-slide">
-									<div class="elementor-testimonial">
-							<div class="elementor-testimonial__content">
-					<div class="elementor-testimonial__text">
-						"I have been buying coffee about 3 years, your<br> flavoured coffee is the best and I just love the <br>variety of flavours that you offer."					</div>
-									</div>
-						<div class="elementor-testimonial__footer">
-									<div class="elementor-testimonial__image">
-						<img src="https://giau1703.github.io/mywordpress/wp-content/uploads/2022/09/testimonials-2-64x64-1.jpg" alt="Nellie Haynes">
-											</div>
-								<cite class="elementor-testimonial__cite"><span class="elementor-testimonial__name">Nellie Haynes</span></cite>			</div>
-		</div>
-								</div>
-									</div>
-															<div class="swiper-pagination"></div>
-																<div class="elementor-swiper-button elementor-swiper-button-prev">
-							<i aria-hidden="true" class="eicon-chevron-left"></i>							<span class="elementor-screen-only">Previous</span>
-						</div>
-						<div class="elementor-swiper-button elementor-swiper-button-next">
-							<i aria-hidden="true" class="eicon-chevron-right"></i>							<span class="elementor-screen-only">Next</span>
-						</div>
-												</div>
-		</div>
-				</div>
-				</div>
-					</div>
-		</div>
-							</div>
-		</section>
-				<section class="elementor-section elementor-top-section elementor-element elementor-element-1129b3c elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="1129b3c" data-element_type="section">
-						<div class="elementor-container elementor-column-gap-default">
-					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-7da9cb2" data-id="7da9cb2" data-element_type="column">
-			<div class="elementor-widget-wrap elementor-element-populated">
-								<div class="elementor-element elementor-element-4de611f elementor-widget elementor-widget-spacer" data-id="4de611f" data-element_type="widget" data-widget_type="spacer.default">
-				<div class="elementor-widget-container">
-					<div class="elementor-spacer">
-			<div class="elementor-spacer-inner"></div>
-		</div>
-				</div>
-				</div>
-					</div>
-		</div>
-							</div>
-		</section>
-				<section class="elementor-section elementor-top-section elementor-element elementor-element-375a9d5 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="375a9d5" data-element_type="section">
-							<div class="elementor-background-overlay"></div>
-							<div class="elementor-container elementor-column-gap-default">
-					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-8efd274" data-id="8efd274" data-element_type="column">
-			<div class="elementor-widget-wrap elementor-element-populated">
-								<section class="elementor-section elementor-inner-section elementor-element elementor-element-7beb675 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="7beb675" data-element_type="section">
-							<div class="elementor-background-overlay"></div>
-							<div class="elementor-container elementor-column-gap-default">
-					<div class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-40739f8" data-id="40739f8" data-element_type="column">
-			<div class="elementor-widget-wrap elementor-element-populated">
-								<div class="elementor-element elementor-element-e350dde elementor-widget elementor-widget-heading" data-id="e350dde" data-element_type="widget" data-widget_type="heading.default">
-				<div class="elementor-widget-container">
-			<h6 class="elementor-heading-title elementor-size-default">OUR TEAM</h6>		</div>
-				</div>
-					</div>
-		</div>
-							</div>
-		</section>
-				<section class="elementor-section elementor-inner-section elementor-element elementor-element-9ec74f1 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="9ec74f1" data-element_type="section">
-						<div class="elementor-container elementor-column-gap-default">
-					<div class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-000e4b6" data-id="000e4b6" data-element_type="column">
-			<div class="elementor-widget-wrap elementor-element-populated">
-								<div class="elementor-element elementor-element-2d2e70e elementor-widget elementor-widget-heading" data-id="2d2e70e" data-element_type="widget" data-widget_type="heading.default">
-				<div class="elementor-widget-container">
-			<h2 class="elementor-heading-title elementor-size-default">MEET THE TEAM</h2>		</div>
-				</div>
-					</div>
-		</div>
-							</div>
-		</section>
-					</div>
-		</div>
-							</div>
-		</section>
-				<section class="elementor-section elementor-top-section elementor-element elementor-element-0bbef72 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="0bbef72" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-						<div class="elementor-container elementor-column-gap-default">
-					<div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-0498e06" data-id="0498e06" data-element_type="column">
-			<div class="elementor-widget-wrap elementor-element-populated">
-								<div class="elementor-element elementor-element-c4e26b9 elementor-widget elementor-widget-image" data-id="c4e26b9" data-element_type="widget" data-widget_type="image.default">
-				<div class="elementor-widget-container">
-															<img width="370" height="414" src="https://giau1703.github.io/mywordpress/wp-content/uploads/2022/09/team-1-370x414-1.jpg" class="attachment-large size-large" alt="" loading="lazy">															</div>
-				</div>
-				<div class="elementor-element elementor-element-3e988df elementor-widget elementor-widget-heading" data-id="3e988df" data-element_type="widget" data-widget_type="heading.default">
-				<div class="elementor-widget-container">
-			<h4 class="elementor-heading-title elementor-size-default">ANITA GOLDEN</h4>		</div>
-				</div>
-				<div class="elementor-element elementor-element-3b35818 elementor-widget elementor-widget-heading" data-id="3b35818" data-element_type="widget" data-widget_type="heading.default">
-				<div class="elementor-widget-container">
-			<h6 class="elementor-heading-title elementor-size-default">CO-FOUNDER</h6>		</div>
-				</div>
-				<div class="elementor-element elementor-element-c1b7572 elementor-shape-square elementor-grid-0 e-grid-align-center elementor-widget elementor-widget-social-icons" data-id="c1b7572" data-element_type="widget" data-widget_type="social-icons.default">
-				<div class="elementor-widget-container">
-			<style>/*! elementor - v3.7.4 - 31-08-2022 */
-.elementor-widget-social-icons.elementor-grid-0 .elementor-widget-container,.elementor-widget-social-icons.elementor-grid-mobile-0 .elementor-widget-container,.elementor-widget-social-icons.elementor-grid-tablet-0 .elementor-widget-container{line-height:1;font-size:0}.elementor-widget-social-icons:not(.elementor-grid-0):not(.elementor-grid-tablet-0):not(.elementor-grid-mobile-0) .elementor-grid{display:inline-grid}.elementor-widget-social-icons .elementor-grid{grid-column-gap:var(--grid-column-gap,5px);grid-row-gap:var(--grid-row-gap,5px);grid-template-columns:var(--grid-template-columns);-webkit-box-pack:var(--justify-content,center);-ms-flex-pack:var(--justify-content,center);justify-content:var(--justify-content,center);justify-items:var(--justify-content,center)}.elementor-icon.elementor-social-icon{font-size:var(--icon-size,25px);line-height:var(--icon-size,25px);width:calc(var(--icon-size, 25px) + (2 * var(--icon-padding, .5em)));height:calc(var(--icon-size, 25px) + (2 * var(--icon-padding, .5em)))}.elementor-social-icon{--e-social-icon-icon-color:#fff;display:-webkit-inline-box;display:-ms-inline-flexbox;display:inline-flex;background-color:#818a91;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;text-align:center;cursor:pointer}.elementor-social-icon i{color:var(--e-social-icon-icon-color)}.elementor-social-icon svg{fill:var(--e-social-icon-icon-color)}.elementor-social-icon:last-child{margin:0}.elementor-social-icon:hover{opacity:.9;color:#fff}.elementor-social-icon-android{background-color:#a4c639}.elementor-social-icon-apple{background-color:#999}.elementor-social-icon-behance{background-color:#1769ff}.elementor-social-icon-bitbucket{background-color:#205081}.elementor-social-icon-codepen{background-color:#000}.elementor-social-icon-delicious{background-color:#39f}.elementor-social-icon-deviantart{background-color:#05cc47}.elementor-social-icon-digg{background-color:#005be2}.elementor-social-icon-dribbble{background-color:#ea4c89}.elementor-social-icon-elementor{background-color:#d30c5c}.elementor-social-icon-envelope{background-color:#ea4335}.elementor-social-icon-facebook,.elementor-social-icon-facebook-f{background-color:#3b5998}.elementor-social-icon-flickr{background-color:#0063dc}.elementor-social-icon-foursquare{background-color:#2d5be3}.elementor-social-icon-free-code-camp,.elementor-social-icon-freecodecamp{background-color:#006400}.elementor-social-icon-github{background-color:#333}.elementor-social-icon-gitlab{background-color:#e24329}.elementor-social-icon-globe{background-color:#818a91}.elementor-social-icon-google-plus,.elementor-social-icon-google-plus-g{background-color:#dd4b39}.elementor-social-icon-houzz{background-color:#7ac142}.elementor-social-icon-instagram{background-color:#262626}.elementor-social-icon-jsfiddle{background-color:#487aa2}.elementor-social-icon-link{background-color:#818a91}.elementor-social-icon-linkedin,.elementor-social-icon-linkedin-in{background-color:#0077b5}.elementor-social-icon-medium{background-color:#00ab6b}.elementor-social-icon-meetup{background-color:#ec1c40}.elementor-social-icon-mixcloud{background-color:#273a4b}.elementor-social-icon-odnoklassniki{background-color:#f4731c}.elementor-social-icon-pinterest{background-color:#bd081c}.elementor-social-icon-product-hunt{background-color:#da552f}.elementor-social-icon-reddit{background-color:#ff4500}.elementor-social-icon-rss{background-color:#f26522}.elementor-social-icon-shopping-cart{background-color:#4caf50}.elementor-social-icon-skype{background-color:#00aff0}.elementor-social-icon-slideshare{background-color:#0077b5}.elementor-social-icon-snapchat{background-color:#fffc00}.elementor-social-icon-soundcloud{background-color:#f80}.elementor-social-icon-spotify{background-color:#2ebd59}.elementor-social-icon-stack-overflow{background-color:#fe7a15}.elementor-social-icon-steam{background-color:#00adee}.elementor-social-icon-stumbleupon{background-color:#eb4924}.elementor-social-icon-telegram{background-color:#2ca5e0}.elementor-social-icon-thumb-tack{background-color:#1aa1d8}.elementor-social-icon-tripadvisor{background-color:#589442}.elementor-social-icon-tumblr{background-color:#35465c}.elementor-social-icon-twitch{background-color:#6441a5}.elementor-social-icon-twitter{background-color:#1da1f2}.elementor-social-icon-viber{background-color:#665cac}.elementor-social-icon-vimeo{background-color:#1ab7ea}.elementor-social-icon-vk{background-color:#45668e}.elementor-social-icon-weibo{background-color:#dd2430}.elementor-social-icon-weixin{background-color:#31a918}.elementor-social-icon-whatsapp{background-color:#25d366}.elementor-social-icon-wordpress{background-color:#21759b}.elementor-social-icon-xing{background-color:#026466}.elementor-social-icon-yelp{background-color:#af0606}.elementor-social-icon-youtube{background-color:#cd201f}.elementor-social-icon-500px{background-color:#0099e5}.elementor-shape-rounded .elementor-icon.elementor-social-icon{border-radius:10%}.elementor-shape-circle .elementor-icon.elementor-social-icon{border-radius:50%}</style>		<div class="elementor-social-icons-wrapper elementor-grid">
-							<span class="elementor-grid-item">
-					<a class="elementor-icon elementor-social-icon elementor-social-icon-facebook elementor-animation-pulse elementor-repeater-item-1db5c36" target="_blank">
-						<span class="elementor-screen-only">Facebook</span>
-						<i class="fab fa-facebook"></i>					</a>
-				</span>
-							<span class="elementor-grid-item">
-					<a class="elementor-icon elementor-social-icon elementor-social-icon-twitter elementor-animation-pulse elementor-repeater-item-65eaa77" target="_blank">
-						<span class="elementor-screen-only">Twitter</span>
-						<i class="fab fa-twitter"></i>					</a>
-				</span>
-							<span class="elementor-grid-item">
-					<a class="elementor-icon elementor-social-icon elementor-social-icon-youtube elementor-animation-pulse elementor-repeater-item-103b6cd" target="_blank">
-						<span class="elementor-screen-only">Youtube</span>
-						<i class="fab fa-youtube"></i>					</a>
-				</span>
-					</div>
-				</div>
-				</div>
-					</div>
-		</div>
-				<div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-c4c8ab8" data-id="c4c8ab8" data-element_type="column">
-			<div class="elementor-widget-wrap elementor-element-populated">
-								<div class="elementor-element elementor-element-a6704cb elementor-widget elementor-widget-image" data-id="a6704cb" data-element_type="widget" data-widget_type="image.default">
-				<div class="elementor-widget-container">
-															<img width="370" height="414" src="https://giau1703.github.io/mywordpress/wp-content/uploads/2022/09/team-2-370x414-1.jpg" class="attachment-large size-large" alt="" loading="lazy">															</div>
-				</div>
-				<div class="elementor-element elementor-element-23d5728 elementor-widget elementor-widget-heading" data-id="23d5728" data-element_type="widget" data-widget_type="heading.default">
-				<div class="elementor-widget-container">
-			<h4 class="elementor-heading-title elementor-size-default">DEVIN BREWER</h4>		</div>
-				</div>
-				<div class="elementor-element elementor-element-7412d5e elementor-widget elementor-widget-heading" data-id="7412d5e" data-element_type="widget" data-widget_type="heading.default">
-				<div class="elementor-widget-container">
-			<h6 class="elementor-heading-title elementor-size-default">BARISTA</h6>		</div>
-				</div>
-				<div class="elementor-element elementor-element-c07104e elementor-shape-square elementor-grid-0 e-grid-align-center elementor-widget elementor-widget-social-icons" data-id="c07104e" data-element_type="widget" data-widget_type="social-icons.default">
-				<div class="elementor-widget-container">
-					<div class="elementor-social-icons-wrapper elementor-grid">
-							<span class="elementor-grid-item">
-					<a class="elementor-icon elementor-social-icon elementor-social-icon-facebook elementor-animation-pulse elementor-repeater-item-1db5c36" target="_blank">
-						<span class="elementor-screen-only">Facebook</span>
-						<i class="fab fa-facebook"></i>					</a>
-				</span>
-							<span class="elementor-grid-item">
-					<a class="elementor-icon elementor-social-icon elementor-social-icon-twitter elementor-animation-pulse elementor-repeater-item-65eaa77" target="_blank">
-						<span class="elementor-screen-only">Twitter</span>
-						<i class="fab fa-twitter"></i>					</a>
-				</span>
-							<span class="elementor-grid-item">
-					<a class="elementor-icon elementor-social-icon elementor-social-icon-youtube elementor-animation-pulse elementor-repeater-item-103b6cd" target="_blank">
-						<span class="elementor-screen-only">Youtube</span>
-						<i class="fab fa-youtube"></i>					</a>
-				</span>
-					</div>
-				</div>
-				</div>
-				<div class="elementor-element elementor-element-7431a20 elementor-widget elementor-widget-spacer" data-id="7431a20" data-element_type="widget" data-widget_type="spacer.default">
-				<div class="elementor-widget-container">
-					<div class="elementor-spacer">
-			<div class="elementor-spacer-inner"></div>
-		</div>
-				</div>
-				</div>
-				<div class="elementor-element elementor-element-4f9a3c3 elementor-align-center elementor-widget elementor-widget-button" data-id="4f9a3c3" data-element_type="widget" data-widget_type="button.default">
-				<div class="elementor-widget-container">
-					<div class="elementor-button-wrapper">
-			<a href="http://theme.123website.com.vn/?id=16603" class="elementor-button-link elementor-button elementor-size-lg" role="button">
-						<span class="elementor-button-content-wrapper">
-						<span class="elementor-button-text">More Team Members</span>
-		</span>
-					</a>
-		</div>
-				</div>
-				</div>
-					</div>
-		</div>
-				<div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-a024ab3" data-id="a024ab3" data-element_type="column">
-			<div class="elementor-widget-wrap elementor-element-populated">
-								<div class="elementor-element elementor-element-f9b9662 elementor-widget elementor-widget-image" data-id="f9b9662" data-element_type="widget" data-widget_type="image.default">
-				<div class="elementor-widget-container">
-															<img width="370" height="414" src="https://giau1703.github.io/mywordpress/wp-content/uploads/2022/09/team-3-370x414-2.jpg" class="attachment-large size-large" alt="" loading="lazy">															</div>
-				</div>
-				<div class="elementor-element elementor-element-4058ae3 elementor-widget elementor-widget-heading" data-id="4058ae3" data-element_type="widget" data-widget_type="heading.default">
-				<div class="elementor-widget-container">
-			<h4 class="elementor-heading-title elementor-size-default">ANNE MARSH</h4>		</div>
-				</div>
-				<div class="elementor-element elementor-element-4c2637e elementor-widget elementor-widget-heading" data-id="4c2637e" data-element_type="widget" data-widget_type="heading.default">
-				<div class="elementor-widget-container">
-			<h6 class="elementor-heading-title elementor-size-default">BARISTA</h6>		</div>
-				</div>
-				<div class="elementor-element elementor-element-33ef996 elementor-shape-square elementor-grid-0 e-grid-align-center elementor-widget elementor-widget-social-icons" data-id="33ef996" data-element_type="widget" data-widget_type="social-icons.default">
-				<div class="elementor-widget-container">
-					<div class="elementor-social-icons-wrapper elementor-grid">
-							<span class="elementor-grid-item">
-					<a class="elementor-icon elementor-social-icon elementor-social-icon-facebook elementor-animation-pulse elementor-repeater-item-1db5c36" target="_blank">
-						<span class="elementor-screen-only">Facebook</span>
-						<i class="fab fa-facebook"></i>					</a>
-				</span>
-							<span class="elementor-grid-item">
-					<a class="elementor-icon elementor-social-icon elementor-social-icon-twitter elementor-animation-pulse elementor-repeater-item-65eaa77" target="_blank">
-						<span class="elementor-screen-only">Twitter</span>
-						<i class="fab fa-twitter"></i>					</a>
-				</span>
-							<span class="elementor-grid-item">
-					<a class="elementor-icon elementor-social-icon elementor-social-icon-youtube elementor-animation-pulse elementor-repeater-item-103b6cd" target="_blank">
-						<span class="elementor-screen-only">Youtube</span>
-						<i class="fab fa-youtube"></i>					</a>
-				</span>
-					</div>
-				</div>
-				</div>
-					</div>
-		</div>
-							</div>
-		</section>
-				<section class="elementor-section elementor-top-section elementor-element elementor-element-4b7c0b2 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="4b7c0b2" data-element_type="section">
-						<div class="elementor-container elementor-column-gap-default">
-					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-192ac67" data-id="192ac67" data-element_type="column">
-			<div class="elementor-widget-wrap elementor-element-populated">
-								<div class="elementor-element elementor-element-f1fed2a elementor-widget elementor-widget-spacer" data-id="f1fed2a" data-element_type="widget" data-widget_type="spacer.default">
-				<div class="elementor-widget-container">
-					<div class="elementor-spacer">
-			<div class="elementor-spacer-inner"></div>
-		</div>
-				</div>
-				</div>
-					</div>
-		</div>
-							</div>
-		</section>
-				<section class="elementor-section elementor-top-section elementor-element elementor-element-0ff6584 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="0ff6584" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-							<div class="elementor-background-overlay"></div>
-							<div class="elementor-container elementor-column-gap-default">
-					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-758efb1" data-id="758efb1" data-element_type="column">
-			<div class="elementor-widget-wrap elementor-element-populated">
-								<div class="elementor-element elementor-element-fc56740 elementor-widget elementor-widget-heading" data-id="fc56740" data-element_type="widget" data-widget_type="heading.default">
-				<div class="elementor-widget-container">
-			<h6 class="elementor-heading-title elementor-size-default">INSTAGRAM</h6>		</div>
-				</div>
-					</div>
-		</div>
-							</div>
-		</section>
-				<section class="elementor-section elementor-top-section elementor-element elementor-element-e829c17 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="e829c17" data-element_type="section">
-						<div class="elementor-container elementor-column-gap-default">
-					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-2d07b26" data-id="2d07b26" data-element_type="column">
-			<div class="elementor-widget-wrap elementor-element-populated">
-								<div class="elementor-element elementor-element-a8a1656 elementor-widget elementor-widget-heading" data-id="a8a1656" data-element_type="widget" data-widget_type="heading.default">
-				<div class="elementor-widget-container">
-			<h1 class="elementor-heading-title elementor-size-default">@COFFEELUCK</h1>		</div>
-				</div>
-					</div>
-		</div>
-							</div>
-		</section>
-				<section class="elementor-section elementor-top-section elementor-element elementor-element-2cbad4a elementor-section-full_width elementor-section-height-default elementor-section-height-default" data-id="2cbad4a" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-						<div class="elementor-container elementor-column-gap-default">
-					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-9c7da3e" data-id="9c7da3e" data-element_type="column">
-			<div class="elementor-widget-wrap elementor-element-populated">
-								<div class="elementor-element elementor-element-490c3de elementor-widget elementor-widget-spacer" data-id="490c3de" data-element_type="widget" data-widget_type="spacer.default">
-				<div class="elementor-widget-container">
-					<div class="elementor-spacer">
-			<div class="elementor-spacer-inner"></div>
-		</div>
-				</div>
-				</div>
-					</div>
-		</div>
-							</div>
-		</section>
-				<section class="elementor-section elementor-top-section elementor-element elementor-element-30fed3b animated-slow elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-invisible" data-id="30fed3b" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;motion_fx_motion_fx_scrolling&quot;:&quot;yes&quot;,&quot;motion_fx_range&quot;:&quot;page&quot;,&quot;animation&quot;:&quot;fadeInDown&quot;,&quot;animation_delay&quot;:100,&quot;motion_fx_devices&quot;:[&quot;desktop&quot;,&quot;tablet&quot;,&quot;mobile&quot;]}">
-						<div class="elementor-container elementor-column-gap-default">
-					<div class="elementor-column elementor-col-16 elementor-top-column elementor-element elementor-element-9153eee" data-id="9153eee" data-element_type="column">
-			<div class="elementor-widget-wrap elementor-element-populated">
-								<div class="elementor-element elementor-element-591387f elementor-widget elementor-widget-image" data-id="591387f" data-element_type="widget" data-widget_type="image.default">
-				<div class="elementor-widget-container">
-															<img width="370" height="370" src="https://giau1703.github.io/mywordpress/wp-content/uploads/2022/09/image-9-370x370-1.jpg" class="attachment-large size-large" alt="" loading="lazy">															</div>
-				</div>
-					</div>
-		</div>
-				<div class="elementor-column elementor-col-16 elementor-top-column elementor-element elementor-element-2008bbd" data-id="2008bbd" data-element_type="column">
-			<div class="elementor-widget-wrap elementor-element-populated">
-								<div class="elementor-element elementor-element-4943e26 elementor-widget elementor-widget-image" data-id="4943e26" data-element_type="widget" data-widget_type="image.default">
-				<div class="elementor-widget-container">
-															<img width="370" height="370" src="https://giau1703.github.io/mywordpress/wp-content/uploads/2022/09/image-7-370x370-1.jpg" class="attachment-large size-large" alt="" loading="lazy">															</div>
-				</div>
-					</div>
-		</div>
-				<div class="elementor-column elementor-col-16 elementor-top-column elementor-element elementor-element-2f4c848" data-id="2f4c848" data-element_type="column">
-			<div class="elementor-widget-wrap elementor-element-populated">
-								<div class="elementor-element elementor-element-61dfb60 elementor-widget elementor-widget-image" data-id="61dfb60" data-element_type="widget" data-widget_type="image.default">
-				<div class="elementor-widget-container">
-															<img width="370" height="370" src="https://giau1703.github.io/mywordpress/wp-content/uploads/2022/09/image-6-370x370-1.jpg" class="attachment-large size-large" alt="" loading="lazy">															</div>
-				</div>
-					</div>
-		</div>
-				<div class="elementor-column elementor-col-16 elementor-top-column elementor-element elementor-element-bf751de" data-id="bf751de" data-element_type="column">
-			<div class="elementor-widget-wrap elementor-element-populated">
-								<div class="elementor-element elementor-element-7ed8a94 elementor-widget elementor-widget-image" data-id="7ed8a94" data-element_type="widget" data-widget_type="image.default">
-				<div class="elementor-widget-container">
-															<img width="370" height="370" src="https://giau1703.github.io/mywordpress/wp-content/uploads/2022/09/image-4-370x370-1.jpg" class="attachment-large size-large" alt="" loading="lazy">															</div>
-				</div>
-					</div>
-		</div>
-				<div class="elementor-column elementor-col-16 elementor-top-column elementor-element elementor-element-ddd7fe3" data-id="ddd7fe3" data-element_type="column">
-			<div class="elementor-widget-wrap elementor-element-populated">
-								<div class="elementor-element elementor-element-fa6a8cb elementor-widget elementor-widget-image" data-id="fa6a8cb" data-element_type="widget" data-widget_type="image.default">
-				<div class="elementor-widget-container">
-															<img width="370" height="370" src="https://giau1703.github.io/mywordpress/wp-content/uploads/2022/09/image-5-370x370-2.jpg" class="attachment-large size-large" alt="" loading="lazy">															</div>
-				</div>
-					</div>
-		</div>
-				<div class="elementor-column elementor-col-16 elementor-top-column elementor-element elementor-element-0f674a5" data-id="0f674a5" data-element_type="column">
-			<div class="elementor-widget-wrap elementor-element-populated">
-								<div class="elementor-element elementor-element-0cf8edf elementor-widget elementor-widget-image" data-id="0cf8edf" data-element_type="widget" data-widget_type="image.default">
-				<div class="elementor-widget-container">
-															<img width="370" height="370" src="https://giau1703.github.io/mywordpress/wp-content/uploads/2022/09/image-3-370x370-2.jpg" class="attachment-large size-large" alt="" loading="lazy">															</div>
-				</div>
-					</div>
-		</div>
-							</div>
-		</section>
-				<section class="elementor-section elementor-top-section elementor-element elementor-element-8188a36 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="8188a36" data-element_type="section">
-						<div class="elementor-container elementor-column-gap-default">
-					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-254420c" data-id="254420c" data-element_type="column">
-			<div class="elementor-widget-wrap elementor-element-populated">
-								<div class="elementor-element elementor-element-3a45e17 elementor-widget elementor-widget-spacer" data-id="3a45e17" data-element_type="widget" data-widget_type="spacer.default">
-				<div class="elementor-widget-container">
-					<div class="elementor-spacer">
-			<div class="elementor-spacer-inner"></div>
-		</div>
-				</div>
-				</div>
-					</div>
-		</div>
-							</div>
-		</section>
-				<section class="elementor-section elementor-top-section elementor-element elementor-element-8a42d1a elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="8a42d1a" data-element_type="section">
-						<div class="elementor-container elementor-column-gap-default">
-					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-a8a0b03" data-id="a8a0b03" data-element_type="column">
-			<div class="elementor-widget-wrap elementor-element-populated">
-								<div class="elementor-element elementor-element-bb88ae8 elementor-align-center elementor-widget elementor-widget-button" data-id="bb88ae8" data-element_type="widget" data-widget_type="button.default">
-				<div class="elementor-widget-container">
-					<div class="elementor-button-wrapper">
-			<a href="http://theme.123website.com.vn/?id=16603" class="elementor-button-link elementor-button elementor-size-xl" role="button">
-						<span class="elementor-button-content-wrapper">
-						<span class="elementor-button-text">Follow Us on Instagram</span>
-		</span>
-					</a>
-		</div>
-				</div>
-				</div>
-					</div>
-		</div>
-							</div>
-		</section>
-				<section class="elementor-section elementor-top-section elementor-element elementor-element-f66a8fb elementor-section-full_width elementor-section-height-default elementor-section-height-default" data-id="f66a8fb" data-element_type="section">
-						<div class="elementor-container elementor-column-gap-default">
-					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-75e5773" data-id="75e5773" data-element_type="column">
-			<div class="elementor-widget-wrap elementor-element-populated">
-								<div class="elementor-element elementor-element-1a6311b elementor-widget elementor-widget-spacer" data-id="1a6311b" data-element_type="widget" data-widget_type="spacer.default">
-				<div class="elementor-widget-container">
-					<div class="elementor-spacer">
-			<div class="elementor-spacer-inner"></div>
-		</div>
-				</div>
-				</div>
-					</div>
-		</div>
-							</div>
-		</section>
-				<section class="elementor-section elementor-top-section elementor-element elementor-element-38f8ab2 elementor-section-full_width elementor-section-height-default elementor-section-height-default" data-id="38f8ab2" data-element_type="section">
-						<div class="elementor-container elementor-column-gap-default">
-					<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-4d1784a" data-id="4d1784a" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-			<div class="elementor-widget-wrap elementor-element-populated">
-								<div class="elementor-element elementor-element-b5dc910 elementor-widget elementor-widget-spacer" data-id="b5dc910" data-element_type="widget" data-widget_type="spacer.default">
-				<div class="elementor-widget-container">
-					<div class="elementor-spacer">
-			<div class="elementor-spacer-inner"></div>
-		</div>
-				</div>
-				</div>
-				<section class="elementor-section elementor-inner-section elementor-element elementor-element-bdb9f19 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="bdb9f19" data-element_type="section">
-						<div class="elementor-container elementor-column-gap-default">
-					<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-5d2e955" data-id="5d2e955" data-element_type="column">
-			<div class="elementor-widget-wrap elementor-element-populated">
-								<div class="elementor-element elementor-element-61789f0 elementor-widget elementor-widget-heading" data-id="61789f0" data-element_type="widget" data-widget_type="heading.default">
-				<div class="elementor-widget-container">
-			<h3 class="elementor-heading-title elementor-size-default">
-PHONE</h3>		</div>
-				</div>
-				<div class="elementor-element elementor-element-49b54ee elementor-widget elementor-widget-heading" data-id="49b54ee" data-element_type="widget" data-widget_type="heading.default">
-				<div class="elementor-widget-container">
-			<h6 class="elementor-heading-title elementor-size-default">(323) 467-1175</h6>		</div>
-				</div>
-					</div>
-		</div>
-				<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-10821a7" data-id="10821a7" data-element_type="column">
-			<div class="elementor-widget-wrap elementor-element-populated">
-								<div class="elementor-element elementor-element-d2cf3f1 elementor-widget elementor-widget-heading" data-id="d2cf3f1" data-element_type="widget" data-widget_type="heading.default">
-				<div class="elementor-widget-container">
-			<h3 class="elementor-heading-title elementor-size-default">
-ADDRESS</h3>		</div>
-				</div>
-				<div class="elementor-element elementor-element-d9cbe63 elementor-widget elementor-widget-heading" data-id="d9cbe63" data-element_type="widget" data-widget_type="heading.default">
-				<div class="elementor-widget-container">
-			<h6 class="elementor-heading-title elementor-size-default">123, NEW LENOXCHICAGO,<br>
-IL 60606</h6>		</div>
-				</div>
-					</div>
-		</div>
-							</div>
-		</section>
-				<div class="elementor-element elementor-element-0b08aee elementor-widget elementor-widget-spacer" data-id="0b08aee" data-element_type="widget" data-widget_type="spacer.default">
-				<div class="elementor-widget-container">
-					<div class="elementor-spacer">
-			<div class="elementor-spacer-inner"></div>
-		</div>
-				</div>
-				</div>
-				<section class="elementor-section elementor-inner-section elementor-element elementor-element-1688e03 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="1688e03" data-element_type="section">
-						<div class="elementor-container elementor-column-gap-default">
-					<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-6ece494" data-id="6ece494" data-element_type="column">
-			<div class="elementor-widget-wrap elementor-element-populated">
-								<div class="elementor-element elementor-element-711b981 elementor-widget elementor-widget-heading" data-id="711b981" data-element_type="widget" data-widget_type="heading.default">
-				<div class="elementor-widget-container">
-			<h3 class="elementor-heading-title elementor-size-default">
-EMAIL</h3>		</div>
-				</div>
-				<div class="elementor-element elementor-element-f0eb21d elementor-widget elementor-widget-heading" data-id="f0eb21d" data-element_type="widget" data-widget_type="heading.default">
-				<div class="elementor-widget-container">
-			<h6 class="elementor-heading-title elementor-size-default">INFO@YOURSITE.COM
-</h6>		</div>
-				</div>
-					</div>
-		</div>
-				<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-1df86d3" data-id="1df86d3" data-element_type="column">
-			<div class="elementor-widget-wrap elementor-element-populated">
-								<div class="elementor-element elementor-element-bfd886a elementor-widget elementor-widget-heading" data-id="bfd886a" data-element_type="widget" data-widget_type="heading.default">
-				<div class="elementor-widget-container">
-			<h3 class="elementor-heading-title elementor-size-default">
-HOURS</h3>		</div>
-				</div>
-				<div class="elementor-element elementor-element-a20f6a0 elementor-widget elementor-widget-heading" data-id="a20f6a0" data-element_type="widget" data-widget_type="heading.default">
-				<div class="elementor-widget-container">
-			<h6 class="elementor-heading-title elementor-size-default">MO-SU<br>
-8AM-10PM</h6>		</div>
-				</div>
-					</div>
-		</div>
-							</div>
-		</section>
-					</div>
-		</div>
-				<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-6e7c3ae" data-id="6e7c3ae" data-element_type="column">
-			<div class="elementor-widget-wrap elementor-element-populated">
-								<div class="elementor-element elementor-element-b0c048f elementor-widget elementor-widget-google_maps" data-id="b0c048f" data-element_type="widget" data-widget_type="google_maps.default">
-				<div class="elementor-widget-container">
-			<style>/*! elementor - v3.7.4 - 31-08-2022 */
-.elementor-widget-google_maps .elementor-widget-container{overflow:hidden}.elementor-widget-google_maps iframe{height:300px}</style>		<div class="elementor-custom-embed">
-			<iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?q=12%20tr%E1%BB%8Bnh%20d%C3%ACnh%20th%E1%BA%A3o&#038;t=m&#038;z=10&#038;output=embed&#038;iwloc=near" title="12 trịnh dình thảo" aria-label="12 trịnh dình thảo"></iframe>
-		</div>
-				</div>
-				</div>
-					</div>
-		</div>
-							</div>
-		</section>
-							</div>
-				<div data-elementor-type="footer" data-elementor-id="215" class="elementor elementor-215 elementor-location-footer">
+		</main><!-- #main -->
+	</div>
+<!-- #primary -->
+
+
+<div id="secondary" class="widget-area" role="complementary">
+	<div id="block-2" class="widget widget_block widget_search"><form role="search" method="get" action="http://localhost:7000/myproject/wordpress/" class="wp-block-search__button-outside wp-block-search__text-button wp-block-search">
+<label for="wp-block-search__input-1" class="wp-block-search__label">Tìm kiếm</label><div class="wp-block-search__inside-wrapper ">
+<input type="search" id="wp-block-search__input-1" class="wp-block-search__input " name="s" value="" placeholder="" required><button type="submit" class="wp-block-search__button  ">Tìm kiếm</button>
+</div>
+</form></div>
+<div id="block-3" class="widget widget_block"><div class="wp-container-1 wp-block-group"><div class="wp-block-group__inner-container">
+<h2>Bài viết mới</h2>
+<ul class="wp-block-latest-posts__list wp-block-latest-posts">
+<li><a class="wp-block-latest-posts__post-title" href="https://giau1703.github.io/mywordpress/2022/08/20/top-10-cau-thu-xuat-nhat-the-gioi-nam-2022/">Top 10 cầu thủ xuất nhất thế giới năm 2022</a></li>
+</ul>
+</div></div></div>
+<div id="block-4" class="widget widget_block"><div class="wp-container-2 wp-block-group"><div class="wp-block-group__inner-container">
+<h2>Phản hồi gần đây</h2>
+<div class="no-comments wp-block-latest-comments">Không có bình luận nào để hiển thị.</div>
+</div></div></div>
+<div id="block-5" class="widget widget_block"><div class="wp-container-3 wp-block-group"><div class="wp-block-group__inner-container">
+<h2>Lưu trữ</h2>
+<ul class=" wp-block-archives-list wp-block-archives">	<li><a href="https://giau1703.github.io/mywordpress/2022/08/">Tháng Tám 2022</a></li>
+</ul>
+</div></div></div>
+<div id="block-6" class="widget widget_block"><div class="wp-container-4 wp-block-group"><div class="wp-block-group__inner-container">
+<h2>Chuyên mục</h2>
+<ul class="wp-block-categories-list wp-block-categories">	<li class="cat-item cat-item-1">
+<a href="https://giau1703.github.io/mywordpress/category/khong-phan-loai/">Chưa phân loại</a>
+</li>
+</ul>
+</div></div></div>
+</div>
+<!-- #secondary -->
+		<div data-elementor-type="footer" data-elementor-id="215" class="elementor elementor-215 elementor-location-footer">
 								<section class="elementor-section elementor-top-section elementor-element elementor-element-c5eab54 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="c5eab54" data-element_type="section">
 						<div class="elementor-container elementor-column-gap-default">
 					<div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-f00fb88" data-id="f00fb88" data-element_type="column">
@@ -1445,7 +775,8 @@ HOURS</h3>		</div>
 			<div class="elementor-widget-wrap elementor-element-populated">
 								<div class="elementor-element elementor-element-5e53e0f elementor-shape-rounded elementor-grid-0 e-grid-align-center elementor-widget elementor-widget-social-icons" data-id="5e53e0f" data-element_type="widget" data-widget_type="social-icons.default">
 				<div class="elementor-widget-container">
-					<div class="elementor-social-icons-wrapper elementor-grid">
+			<style>/*! elementor - v3.7.4 - 31-08-2022 */
+.elementor-widget-social-icons.elementor-grid-0 .elementor-widget-container,.elementor-widget-social-icons.elementor-grid-mobile-0 .elementor-widget-container,.elementor-widget-social-icons.elementor-grid-tablet-0 .elementor-widget-container{line-height:1;font-size:0}.elementor-widget-social-icons:not(.elementor-grid-0):not(.elementor-grid-tablet-0):not(.elementor-grid-mobile-0) .elementor-grid{display:inline-grid}.elementor-widget-social-icons .elementor-grid{grid-column-gap:var(--grid-column-gap,5px);grid-row-gap:var(--grid-row-gap,5px);grid-template-columns:var(--grid-template-columns);-webkit-box-pack:var(--justify-content,center);-ms-flex-pack:var(--justify-content,center);justify-content:var(--justify-content,center);justify-items:var(--justify-content,center)}.elementor-icon.elementor-social-icon{font-size:var(--icon-size,25px);line-height:var(--icon-size,25px);width:calc(var(--icon-size, 25px) + (2 * var(--icon-padding, .5em)));height:calc(var(--icon-size, 25px) + (2 * var(--icon-padding, .5em)))}.elementor-social-icon{--e-social-icon-icon-color:#fff;display:-webkit-inline-box;display:-ms-inline-flexbox;display:inline-flex;background-color:#818a91;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;text-align:center;cursor:pointer}.elementor-social-icon i{color:var(--e-social-icon-icon-color)}.elementor-social-icon svg{fill:var(--e-social-icon-icon-color)}.elementor-social-icon:last-child{margin:0}.elementor-social-icon:hover{opacity:.9;color:#fff}.elementor-social-icon-android{background-color:#a4c639}.elementor-social-icon-apple{background-color:#999}.elementor-social-icon-behance{background-color:#1769ff}.elementor-social-icon-bitbucket{background-color:#205081}.elementor-social-icon-codepen{background-color:#000}.elementor-social-icon-delicious{background-color:#39f}.elementor-social-icon-deviantart{background-color:#05cc47}.elementor-social-icon-digg{background-color:#005be2}.elementor-social-icon-dribbble{background-color:#ea4c89}.elementor-social-icon-elementor{background-color:#d30c5c}.elementor-social-icon-envelope{background-color:#ea4335}.elementor-social-icon-facebook,.elementor-social-icon-facebook-f{background-color:#3b5998}.elementor-social-icon-flickr{background-color:#0063dc}.elementor-social-icon-foursquare{background-color:#2d5be3}.elementor-social-icon-free-code-camp,.elementor-social-icon-freecodecamp{background-color:#006400}.elementor-social-icon-github{background-color:#333}.elementor-social-icon-gitlab{background-color:#e24329}.elementor-social-icon-globe{background-color:#818a91}.elementor-social-icon-google-plus,.elementor-social-icon-google-plus-g{background-color:#dd4b39}.elementor-social-icon-houzz{background-color:#7ac142}.elementor-social-icon-instagram{background-color:#262626}.elementor-social-icon-jsfiddle{background-color:#487aa2}.elementor-social-icon-link{background-color:#818a91}.elementor-social-icon-linkedin,.elementor-social-icon-linkedin-in{background-color:#0077b5}.elementor-social-icon-medium{background-color:#00ab6b}.elementor-social-icon-meetup{background-color:#ec1c40}.elementor-social-icon-mixcloud{background-color:#273a4b}.elementor-social-icon-odnoklassniki{background-color:#f4731c}.elementor-social-icon-pinterest{background-color:#bd081c}.elementor-social-icon-product-hunt{background-color:#da552f}.elementor-social-icon-reddit{background-color:#ff4500}.elementor-social-icon-rss{background-color:#f26522}.elementor-social-icon-shopping-cart{background-color:#4caf50}.elementor-social-icon-skype{background-color:#00aff0}.elementor-social-icon-slideshare{background-color:#0077b5}.elementor-social-icon-snapchat{background-color:#fffc00}.elementor-social-icon-soundcloud{background-color:#f80}.elementor-social-icon-spotify{background-color:#2ebd59}.elementor-social-icon-stack-overflow{background-color:#fe7a15}.elementor-social-icon-steam{background-color:#00adee}.elementor-social-icon-stumbleupon{background-color:#eb4924}.elementor-social-icon-telegram{background-color:#2ca5e0}.elementor-social-icon-thumb-tack{background-color:#1aa1d8}.elementor-social-icon-tripadvisor{background-color:#589442}.elementor-social-icon-tumblr{background-color:#35465c}.elementor-social-icon-twitch{background-color:#6441a5}.elementor-social-icon-twitter{background-color:#1da1f2}.elementor-social-icon-viber{background-color:#665cac}.elementor-social-icon-vimeo{background-color:#1ab7ea}.elementor-social-icon-vk{background-color:#45668e}.elementor-social-icon-weibo{background-color:#dd2430}.elementor-social-icon-weixin{background-color:#31a918}.elementor-social-icon-whatsapp{background-color:#25d366}.elementor-social-icon-wordpress{background-color:#21759b}.elementor-social-icon-xing{background-color:#026466}.elementor-social-icon-yelp{background-color:#af0606}.elementor-social-icon-youtube{background-color:#cd201f}.elementor-social-icon-500px{background-color:#0099e5}.elementor-shape-rounded .elementor-icon.elementor-social-icon{border-radius:10%}.elementor-shape-circle .elementor-icon.elementor-social-icon{border-radius:50%}</style>		<div class="elementor-social-icons-wrapper elementor-grid">
 							<span class="elementor-grid-item">
 					<a class="elementor-icon elementor-social-icon elementor-social-icon-facebook elementor-repeater-item-db7a10e" target="_blank">
 						<span class="elementor-screen-only">Facebook</span>
@@ -1475,17 +806,86 @@ HOURS</h3>		</div>
 		</section>
 						</div>
 		
+<script type="application/ld+json">{"@context":"https:\/\/schema.org\/","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"item":{"name":"Trang chủ","@id":"http:\/\/localhost:7000\/myproject\/wordpress"}}]}</script>	<script type="text/javascript">
+		(function () {
+			var c = document.body.className;
+			c = c.replace(/woocommerce-no-js/, 'woocommerce-js');
+			document.body.className = c;
+		})();
+	</script>
+	<style>.wp-container-1 > .alignleft { float: left; margin-inline-start: 0; margin-inline-end: 2em; }.wp-container-1 > .alignright { float: right; margin-inline-start: 2em; margin-inline-end: 0; }.wp-container-1 > .aligncenter { margin-left: auto !important; margin-right: auto !important; }</style>
+<style>.wp-container-2 > .alignleft { float: left; margin-inline-start: 0; margin-inline-end: 2em; }.wp-container-2 > .alignright { float: right; margin-inline-start: 2em; margin-inline-end: 0; }.wp-container-2 > .aligncenter { margin-left: auto !important; margin-right: auto !important; }</style>
+<style>.wp-container-3 > .alignleft { float: left; margin-inline-start: 0; margin-inline-end: 2em; }.wp-container-3 > .alignright { float: right; margin-inline-start: 2em; margin-inline-end: 0; }.wp-container-3 > .aligncenter { margin-left: auto !important; margin-right: auto !important; }</style>
+<style>.wp-container-4 > .alignleft { float: left; margin-inline-start: 0; margin-inline-end: 2em; }.wp-container-4 > .alignright { float: right; margin-inline-start: 2em; margin-inline-end: 0; }.wp-container-4 > .aligncenter { margin-left: auto !important; margin-right: auto !important; }</style>
+
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+	<div class="pswp__bg"></div>
+	<div class="pswp__scroll-wrap">
+		<div class="pswp__container">
+			<div class="pswp__item"></div>
+			<div class="pswp__item"></div>
+			<div class="pswp__item"></div>
+		</div>
+		<div class="pswp__ui pswp__ui--hidden">
+			<div class="pswp__top-bar">
+				<div class="pswp__counter"></div>
+				<button class="pswp__button pswp__button--close" aria-label="Đóng (Esc)"></button>
+				<button class="pswp__button pswp__button--share" aria-label="Chia sẻ"></button>
+				<button class="pswp__button pswp__button--fs" aria-label="Bật/tắt chế độ toàn màn hình"></button>
+				<button class="pswp__button pswp__button--zoom" aria-label="Phóng to/ thu nhỏ"></button>
+				<div class="pswp__preloader">
+					<div class="pswp__preloader__icn">
+						<div class="pswp__preloader__cut">
+							<div class="pswp__preloader__donut"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+				<div class="pswp__share-tooltip"></div>
+			</div>
+			<button class="pswp__button pswp__button--arrow--left" aria-label="Ảnh trước (mũi tên trái)"></button>
+			<button class="pswp__button pswp__button--arrow--right" aria-label="Ảnh tiếp (mũi tên phải)"></button>
+			<div class="pswp__caption">
+				<div class="pswp__caption__center"></div>
+			</div>
+		</div>
+	</div>
+</div>
+<script type="text/template" id="tmpl-variation-template">
+	<div class="woocommerce-variation-description">{{{ data.variation.variation_description }}}<\/div>
+	<div class="woocommerce-variation-price">{{{ data.variation.price_html }}}<\/div>
+	<div class="woocommerce-variation-availability">{{{ data.variation.availability_html }}}<\/div>
+</script>
+<script type="text/template" id="tmpl-unavailable-variation-template">
+	<p>Rất tiếc, sản phẩm này hiện không tồn tại. Hãy chọn một phương thức kết hợp khác.<\/p>
+</script>
 <link rel="stylesheet" id="e-animations-css" href="https://giau1703.github.io/mywordpress/wp-content/plugins/elementor/assets/lib/animations/animations.min.css?ver=3.7.4" media="all">
-<script src="https://giau1703.github.io/mywordpress/wp-includes/js/imagesloaded.min.js?ver=4.1.4" id="imagesloaded-js"></script>
-<script src="https://giau1703.github.io/mywordpress/wp-includes/js/masonry.min.js?ver=4.2.2" id="masonry-js"></script>
-<script src="https://giau1703.github.io/mywordpress/wp-content/themes/portfolio-kit/assets/js/navigation.js?ver=1.0.2" id="portfolio-kit-navigation-js"></script>
-<script src="https://giau1703.github.io/mywordpress/wp-content/themes/portfolio-kit/assets/js/mobile-menu.js?ver=1.0.10" id="mobile-menu-js"></script>
-<script src="https://giau1703.github.io/mywordpress/wp-content/themes/portfolio-kit/assets/js/scripts.js?ver=1.0.2" id="portfolio-kit-scripts-js"></script>
+<link rel="stylesheet" id="photoswipe-css" href="https://giau1703.github.io/mywordpress/wp-content/plugins/woocommerce/assets/css/photoswipe/photoswipe.min.css?ver=6.9.4" media="all">
+<link rel="stylesheet" id="photoswipe-default-skin-css" href="https://giau1703.github.io/mywordpress/wp-content/plugins/woocommerce/assets/css/photoswipe/default-skin/default-skin.min.css?ver=6.9.4" media="all">
+<script src="https://giau1703.github.io/mywordpress/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js?ver=2.7.0-wc.6.9.4" id="jquery-blockui-js"></script>
+<script id="wc-add-to-cart-js-extra">
+var wc_add_to_cart_params = {"ajax_url":"\/myproject\/wordpress\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/myproject\/wordpress\/?wc-ajax=%%endpoint%%&elementor_page_id=350","i18n_view_cart":"Xem giỏ hàng","cart_url":"http:\/\/localhost:7000\/myproject\/wordpress\/gio-hang\/","is_cart":"","cart_redirect_after_add":"no"};
+</script>
+<script src="https://giau1703.github.io/mywordpress/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min.js?ver=6.9.4" id="wc-add-to-cart-js"></script>
+<script src="https://giau1703.github.io/mywordpress/wp-content/plugins/woocommerce/assets/js/js-cookie/js.cookie.min.js?ver=2.1.4-wc.6.9.4" id="js-cookie-js"></script>
+<script id="woocommerce-js-extra">
+var woocommerce_params = {"ajax_url":"\/myproject\/wordpress\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/myproject\/wordpress\/?wc-ajax=%%endpoint%%&elementor_page_id=350"};
+</script>
+<script src="https://giau1703.github.io/mywordpress/wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min.js?ver=6.9.4" id="woocommerce-js"></script>
+<script id="wc-cart-fragments-js-extra">
+var wc_cart_fragments_params = {"ajax_url":"\/myproject\/wordpress\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/myproject\/wordpress\/?wc-ajax=%%endpoint%%&elementor_page_id=350","cart_hash_key":"wc_cart_hash_85cf559ae759f505d30ffbc0f801936b","fragment_name":"wc_fragments_85cf559ae759f505d30ffbc0f801936b","request_timeout":"5000"};
+</script>
+<script src="https://giau1703.github.io/mywordpress/wp-content/plugins/woocommerce/assets/js/frontend/cart-fragments.min.js?ver=6.9.4" id="wc-cart-fragments-js"></script>
+<script src="https://giau1703.github.io/mywordpress/wp-content/themes/storefront/assets/js/navigation.min.js?ver=4.1.3" id="storefront-navigation-js"></script>
+<script src="https://giau1703.github.io/mywordpress/wp-content/themes/storefront/assets/js/woocommerce/header-cart.min.js?ver=4.1.3" id="storefront-header-cart-js"></script>
+<script src="https://giau1703.github.io/mywordpress/wp-content/themes/storefront/assets/js/footer.min.js?ver=4.1.3" id="storefront-handheld-footer-bar-js"></script>
 <script id="eael-general-js-extra">
-var localize = {"ajaxurl":"http:\/\/localhost:7000\/myproject\/wordpress\/wp-admin\/admin-ajax.php","nonce":"3450c599b9","i18n":{"added":"Added ","compare":"Compare","loading":"Loading..."},"page_permalink":"http:\/\/localhost:7000\/myproject\/wordpress\/"};
+var localize = {"ajaxurl":"http:\/\/localhost:7000\/myproject\/wordpress\/wp-admin\/admin-ajax.php","nonce":"85f33eb235","i18n":{"added":"Added ","compare":"Compare","loading":"Loading..."},"page_permalink":"http:\/\/localhost:7000\/myproject\/wordpress\/"};
 </script>
 <script src="https://giau1703.github.io/mywordpress/wp-content/plugins/essential-addons-for-elementor-lite/assets/front-end/js/view/general.min.js?ver=5.2.4" id="eael-general-js"></script>
 <script src="https://giau1703.github.io/mywordpress/wp-content/plugins/elementor-pro/assets/lib/smartmenus/jquery.smartmenus.min.js?ver=1.0.1" id="smartmenus-js"></script>
+<script src="https://giau1703.github.io/mywordpress/wp-includes/js/imagesloaded.min.js?ver=4.1.4" id="imagesloaded-js"></script>
 <script src="https://giau1703.github.io/mywordpress/wp-content/plugins/elementor-pro/assets/js/webpack-pro.runtime.min.js?ver=3.7.1" id="elementor-pro-webpack-runtime-js"></script>
 <script src="https://giau1703.github.io/mywordpress/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js?ver=3.7.4" id="elementor-webpack-runtime-js"></script>
 <script src="https://giau1703.github.io/mywordpress/wp-content/plugins/elementor/assets/js/frontend-modules.min.js?ver=3.7.4" id="elementor-frontend-modules-js"></script>
@@ -1497,16 +897,33 @@ var localize = {"ajaxurl":"http:\/\/localhost:7000\/myproject\/wordpress\/wp-adm
 wp.i18n.setLocaleData( { 'text directionltr': [ 'ltr' ] } );
 </script>
 <script id="elementor-pro-frontend-js-before">
-var ElementorProFrontendConfig = {"ajaxurl":"http:\/\/localhost:7000\/myproject\/wordpress\/wp-admin\/admin-ajax.php","nonce":"7a3bced78e","urls":{"assets":"http:\/\/localhost:7000\/myproject\/wordpress\/wp-content\/plugins\/elementor-pro\/assets\/","rest":"http:\/\/localhost:7000\/myproject\/wordpress\/wp-json\/"},"shareButtonsNetworks":{"facebook":{"title":"Facebook","has_counter":true},"twitter":{"title":"Twitter"},"linkedin":{"title":"LinkedIn","has_counter":true},"pinterest":{"title":"Pinterest","has_counter":true},"reddit":{"title":"Reddit","has_counter":true},"vk":{"title":"VK","has_counter":true},"odnoklassniki":{"title":"OK","has_counter":true},"tumblr":{"title":"Tumblr"},"digg":{"title":"Digg"},"skype":{"title":"Skype"},"stumbleupon":{"title":"StumbleUpon","has_counter":true},"mix":{"title":"Mix"},"telegram":{"title":"Telegram"},"pocket":{"title":"Pocket","has_counter":true},"xing":{"title":"XING","has_counter":true},"whatsapp":{"title":"WhatsApp"},"email":{"title":"Email"},"print":{"title":"Print"}},"facebook_sdk":{"lang":"vi","app_id":""},"lottie":{"defaultAnimationUrl":"http:\/\/localhost:7000\/myproject\/wordpress\/wp-content\/plugins\/elementor-pro\/modules\/lottie\/assets\/animations\/default.json"}};
+var ElementorProFrontendConfig = {"ajaxurl":"http:\/\/localhost:7000\/myproject\/wordpress\/wp-admin\/admin-ajax.php","nonce":"ffffbc29e8","urls":{"assets":"http:\/\/localhost:7000\/myproject\/wordpress\/wp-content\/plugins\/elementor-pro\/assets\/","rest":"http:\/\/localhost:7000\/myproject\/wordpress\/wp-json\/"},"shareButtonsNetworks":{"facebook":{"title":"Facebook","has_counter":true},"twitter":{"title":"Twitter"},"linkedin":{"title":"LinkedIn","has_counter":true},"pinterest":{"title":"Pinterest","has_counter":true},"reddit":{"title":"Reddit","has_counter":true},"vk":{"title":"VK","has_counter":true},"odnoklassniki":{"title":"OK","has_counter":true},"tumblr":{"title":"Tumblr"},"digg":{"title":"Digg"},"skype":{"title":"Skype"},"stumbleupon":{"title":"StumbleUpon","has_counter":true},"mix":{"title":"Mix"},"telegram":{"title":"Telegram"},"pocket":{"title":"Pocket","has_counter":true},"xing":{"title":"XING","has_counter":true},"whatsapp":{"title":"WhatsApp"},"email":{"title":"Email"},"print":{"title":"Print"}},"woocommerce":{"menu_cart":{"cart_page_url":"http:\/\/localhost:7000\/myproject\/wordpress\/gio-hang\/","checkout_page_url":"http:\/\/localhost:7000\/myproject\/wordpress\/thanh-toan\/"}},"facebook_sdk":{"lang":"vi","app_id":""},"lottie":{"defaultAnimationUrl":"http:\/\/localhost:7000\/myproject\/wordpress\/wp-content\/plugins\/elementor-pro\/modules\/lottie\/assets\/animations\/default.json"}};
 </script>
 <script src="https://giau1703.github.io/mywordpress/wp-content/plugins/elementor-pro/assets/js/frontend.min.js?ver=3.7.1" id="elementor-pro-frontend-js"></script>
 <script src="https://giau1703.github.io/mywordpress/wp-content/plugins/elementor/assets/lib/waypoints/waypoints.min.js?ver=4.0.2" id="elementor-waypoints-js"></script>
 <script src="https://giau1703.github.io/mywordpress/wp-includes/js/jquery/ui/core.min.js?ver=1.13.1" id="jquery-ui-core-js"></script>
 <script id="elementor-frontend-js-before">
-var elementorFrontendConfig = {"environmentMode":{"edit":false,"wpPreview":false,"isScriptDebug":false},"i18n":{"shareOnFacebook":"Chia sẻ trên Facebook","shareOnTwitter":"Chia sẻ trên Twitter","pinIt":"Ghim nó","download":"Tải xuống","downloadImage":"Tải hình ảnh","fullscreen":"Toàn màn hình","zoom":"Thu phóng","share":"Chia sẻ","playVideo":"Chơi Video","previous":"Previous","next":"Next","close":"Đóng"},"is_rtl":false,"breakpoints":{"xs":0,"sm":480,"md":768,"lg":1025,"xl":1440,"xxl":1600},"responsive":{"breakpoints":{"mobile":{"label":"Thiết bị di động","value":767,"default_value":767,"direction":"max","is_enabled":true},"mobile_extra":{"label":"Mobile Extra","value":880,"default_value":880,"direction":"max","is_enabled":false},"tablet":{"label":"Máy tính bảng","value":1024,"default_value":1024,"direction":"max","is_enabled":true},"tablet_extra":{"label":"Tablet Extra","value":1200,"default_value":1200,"direction":"max","is_enabled":false},"laptop":{"label":"Laptop","value":1366,"default_value":1366,"direction":"max","is_enabled":false},"widescreen":{"label":"Widescreen","value":2400,"default_value":2400,"direction":"min","is_enabled":false}}},"version":"3.7.4","is_static":false,"experimentalFeatures":{"e_dom_optimization":true,"e_optimized_assets_loading":true,"e_optimized_css_loading":true,"a11y_improvements":true,"additional_custom_breakpoints":true,"e_import_export":true,"e_hidden_wordpress_widgets":true,"theme_builder_v2":true,"landing-pages":true,"elements-color-picker":true,"favorite-widgets":true,"admin-top-bar":true,"page-transitions":true,"notes":true,"form-submissions":true,"e_scroll_snap":true},"urls":{"assets":"http:\/\/localhost:7000\/myproject\/wordpress\/wp-content\/plugins\/elementor\/assets\/"},"settings":{"page":[],"editorPreferences":[]},"kit":{"active_breakpoints":["viewport_mobile","viewport_tablet"],"global_image_lightbox":"yes","lightbox_enable_counter":"yes","lightbox_enable_fullscreen":"yes","lightbox_enable_zoom":"yes","lightbox_enable_share":"yes","lightbox_title_src":"title","lightbox_description_src":"description"},"post":{"id":276,"title":"My%20WordPress%20%E2%80%93%20M%E1%BB%99t%20trang%20web%20m%E1%BB%9Bi%20s%E1%BB%AD%20d%E1%BB%A5ng%20WordPress","excerpt":"","featuredImage":false}};
+var elementorFrontendConfig = {"environmentMode":{"edit":false,"wpPreview":false,"isScriptDebug":false},"i18n":{"shareOnFacebook":"Chia sẻ trên Facebook","shareOnTwitter":"Chia sẻ trên Twitter","pinIt":"Ghim nó","download":"Tải xuống","downloadImage":"Tải hình ảnh","fullscreen":"Toàn màn hình","zoom":"Thu phóng","share":"Chia sẻ","playVideo":"Chơi Video","previous":"Previous","next":"Next","close":"Đóng"},"is_rtl":false,"breakpoints":{"xs":0,"sm":480,"md":768,"lg":1025,"xl":1440,"xxl":1600},"responsive":{"breakpoints":{"mobile":{"label":"Thiết bị di động","value":767,"default_value":767,"direction":"max","is_enabled":true},"mobile_extra":{"label":"Mobile Extra","value":880,"default_value":880,"direction":"max","is_enabled":false},"tablet":{"label":"Máy tính bảng","value":1024,"default_value":1024,"direction":"max","is_enabled":true},"tablet_extra":{"label":"Tablet Extra","value":1200,"default_value":1200,"direction":"max","is_enabled":false},"laptop":{"label":"Laptop","value":1366,"default_value":1366,"direction":"max","is_enabled":false},"widescreen":{"label":"Widescreen","value":2400,"default_value":2400,"direction":"min","is_enabled":false}}},"version":"3.7.4","is_static":false,"experimentalFeatures":{"e_dom_optimization":true,"e_optimized_assets_loading":true,"e_optimized_css_loading":true,"a11y_improvements":true,"additional_custom_breakpoints":true,"e_import_export":true,"e_hidden_wordpress_widgets":true,"theme_builder_v2":true,"landing-pages":true,"elements-color-picker":true,"favorite-widgets":true,"admin-top-bar":true,"page-transitions":true,"notes":true,"form-submissions":true,"e_scroll_snap":true},"urls":{"assets":"http:\/\/localhost:7000\/myproject\/wordpress\/wp-content\/plugins\/elementor\/assets\/"},"settings":{"page":[],"editorPreferences":[]},"kit":{"active_breakpoints":["viewport_mobile","viewport_tablet"],"global_image_lightbox":"yes","lightbox_enable_counter":"yes","lightbox_enable_fullscreen":"yes","lightbox_enable_zoom":"yes","lightbox_enable_share":"yes","lightbox_title_src":"title","lightbox_description_src":"description","woocommerce_notices_elements":[]},"post":{"id":350,"title":"My%20WordPress%20%E2%80%93%20M%E1%BB%99t%20trang%20web%20m%E1%BB%9Bi%20s%E1%BB%AD%20d%E1%BB%A5ng%20WordPress","excerpt":"","featuredImage":false}};
 </script>
 <script src="https://giau1703.github.io/mywordpress/wp-content/plugins/elementor/assets/js/frontend.min.js?ver=3.7.4" id="elementor-frontend-js"></script>
 <script src="https://giau1703.github.io/mywordpress/wp-content/plugins/elementor-pro/assets/js/elements-handlers.min.js?ver=3.7.1" id="pro-elements-handlers-js"></script>
+<script src="https://giau1703.github.io/mywordpress/wp-content/plugins/woocommerce/assets/js/zoom/jquery.zoom.min.js?ver=1.7.21-wc.6.9.4" id="zoom-js"></script>
+<script src="https://giau1703.github.io/mywordpress/wp-content/plugins/woocommerce/assets/js/flexslider/jquery.flexslider.min.js?ver=2.7.2-wc.6.9.4" id="flexslider-js"></script>
+<script src="https://giau1703.github.io/mywordpress/wp-content/plugins/woocommerce/assets/js/photoswipe/photoswipe.min.js?ver=4.1.1-wc.6.9.4" id="photoswipe-js"></script>
+<script src="https://giau1703.github.io/mywordpress/wp-content/plugins/woocommerce/assets/js/photoswipe/photoswipe-ui-default.min.js?ver=4.1.1-wc.6.9.4" id="photoswipe-ui-default-js"></script>
+<script src="https://giau1703.github.io/mywordpress/wp-includes/js/underscore.min.js?ver=1.13.3" id="underscore-js"></script>
+<script id="wp-util-js-extra">
+var _wpUtilSettings = {"ajax":{"url":"\/myproject\/wordpress\/wp-admin\/admin-ajax.php"}};
+</script>
+<script src="https://giau1703.github.io/mywordpress/wp-includes/js/wp-util.min.js?ver=6.0.2" id="wp-util-js"></script>
+<script id="wc-add-to-cart-variation-js-extra">
+var wc_add_to_cart_variation_params = {"wc_ajax_url":"\/myproject\/wordpress\/?wc-ajax=%%endpoint%%&elementor_page_id=350","i18n_no_matching_variations_text":"Rất tiếc, không có sản phẩm nào phù hợp với lựa chọn của bạn. Hãy chọn một phương thức kết hợp khác.","i18n_make_a_selection_text":"Chọn các tùy chọn cho sản phẩm trước khi cho sản phẩm vào giỏ hàng của bạn.","i18n_unavailable_text":"Rất tiếc, sản phẩm này hiện không tồn tại. Hãy chọn một phương thức kết hợp khác."};
+</script>
+<script src="https://giau1703.github.io/mywordpress/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart-variation.min.js?ver=6.9.4" id="wc-add-to-cart-variation-js"></script>
+<script id="wc-single-product-js-extra">
+var wc_single_product_params = {"i18n_required_rating_text":"Vui lòng chọn một mức đánh giá","review_rating_required":"yes","flexslider":{"rtl":false,"animation":"slide","smoothHeight":true,"directionNav":false,"controlNav":"thumbnails","slideshow":false,"animationSpeed":500,"animationLoop":false,"allowOneSlide":false},"zoom_enabled":"1","zoom_options":[],"photoswipe_enabled":"1","photoswipe_options":{"shareEl":false,"closeOnScroll":false,"history":false,"hideAnimationDuration":0,"showAnimationDuration":0},"flexslider_enabled":"1"};
+</script>
+<script src="https://giau1703.github.io/mywordpress/wp-content/plugins/woocommerce/assets/js/frontend/single-product.min.js?ver=6.9.4" id="wc-single-product-js"></script>
 
 </body>
 </html>
