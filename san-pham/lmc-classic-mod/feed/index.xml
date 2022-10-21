@@ -11,11 +11,11 @@
 	<atom:link href="http://localhost/myproject/wordpress/san-pham/lmc-classic-mod/feed/" rel="self" type="application/rss+xml" />
 	<link>https://giau1703.github.io/mywordpress/san-pham/lmc-classic-mod/</link>
 	<description>Một trang web mới sử dụng WordPress</description>
-	<lastBuildDate>Mon, 17 Oct 2022 01:11:05 +0000</lastBuildDate>
+	<lastBuildDate>Fri, 21 Oct 2022 01:00:19 +0000</lastBuildDate>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.0.2</generator>
+	<generator>https://wordpress.org/?v=6.0.3</generator>
 </channel>
 </rss>
